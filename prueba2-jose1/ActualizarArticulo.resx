@@ -117,35 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="mainGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 119</value>
-  </data>
-  <data name="mainGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>946, 319</value>
-  </data>
-  <data name="artículosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="artículosToolStripMenuItem.Text" xml:space="preserve">
-    <value>Artículo</value>
-  </data>
-  <data name="bodegaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="bodegaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bodega</value>
-  </data>
-  <data name="agregarToolStripMenuItem.Text" xml:space="preserve">
-    <value>Agregar</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>970, 24</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>970, 450</value>
-  </data>
 </root>

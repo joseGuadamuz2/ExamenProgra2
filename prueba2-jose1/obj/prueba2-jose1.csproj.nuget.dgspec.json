@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj": {}
+    "C:\\Source\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj": {
+    "C:\\Source\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj",
+        "projectUniqueName": "C:\\Source\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj",
         "projectName": "prueba2-jose1",
-        "projectPath": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj",
+        "projectPath": "C:\\Source\\prueba2-jose1\\prueba2-jose1\\prueba2-jose1.csproj",
         "packagesPath": "C:\\Users\\Guada Karaoke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\obj\\",
+        "outputPath": "C:\\Source\\prueba2-jose1\\prueba2-jose1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

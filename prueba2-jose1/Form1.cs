@@ -63,6 +63,15 @@ namespace prueba2_jose1
                 btnColumn.Text = "Eliminar";
                 btnColumn.UseColumnTextForButtonValue = true;
                 mainGridView.Columns.Add(btnColumn);
+            }
+            if (mainGridView.Columns["Actualizar"] == null)
+            {
+                DataGridViewButtonColumn btnColumn = new DataGridViewButtonColumn();
+                btnColumn.HeaderText = "Actualizar";
+                btnColumn.Name = "Actualizar";
+                btnColumn.Text = "Actualizar";
+                btnColumn.UseColumnTextForButtonValue = true;
+                mainGridView.Columns.Add(btnColumn);
 
 
 
@@ -110,9 +119,31 @@ namespace prueba2_jose1
                 MessageBox.Show("Ha ocurrido un error");
             }
                 
-            
 
+        }
 
+        public void actualizaArticulo(string nomArt)
+        {
+
+            try
+            {
+                for (int i = 0; i < inventarioCompleto.Count; i++)
+                {
+                    var articulo = inventarioCompleto[i];
+
+                    if (articulo.Nombre == nomArt)
+                    {
+
+                        MessageBox.Show("Encontrado");
+
+                    }
+                }
+                cargarLista();
+            }
+            catch
+            {
+                MessageBox.Show("Ha ocurrido un error");
+            }
         }
 
 

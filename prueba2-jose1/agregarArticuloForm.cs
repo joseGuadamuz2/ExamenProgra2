@@ -38,7 +38,7 @@ namespace prueba2_jose1
 
         private void agregarArticuloForm_Load(object sender, EventArgs e)
         {
-
+            agregarArtiInput.Text = "Hola";
         }
 
         private void cancelarGuardado_Click(object sender, EventArgs e)
