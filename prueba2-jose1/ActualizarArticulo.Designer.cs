@@ -39,11 +39,12 @@
             actuCategoComboBox = new ComboBox();
             actuBodeLabel = new Label();
             actuBodegaComboBox = new ComboBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // actualizarBtn
             // 
-            actualizarBtn.Location = new Point(248, 208);
+            actualizarBtn.Location = new Point(232, 208);
             actualizarBtn.Name = "actualizarBtn";
             actualizarBtn.Size = new Size(75, 23);
             actualizarBtn.TabIndex = 0;
@@ -111,6 +112,7 @@
             // actuCategoComboBox
             // 
             actuCategoComboBox.FormattingEnabled = true;
+            actuCategoComboBox.Items.AddRange(new object[] { "Alimento", "Limpieza", "Hogar", "Mascotas", "Oficina" });
             actuCategoComboBox.Location = new Point(232, 128);
             actuCategoComboBox.Name = "actuCategoComboBox";
             actuCategoComboBox.Size = new Size(202, 23);
@@ -135,11 +137,22 @@
             actuBodegaComboBox.TabIndex = 10;
             actuBodegaComboBox.SelectedIndexChanged += actuBodegaComboBox_SelectedIndexChanged;
             // 
+            // button1
+            // 
+            button1.Location = new Point(359, 208);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 11;
+            button1.Text = "Salir";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // ActualizarArticulo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(actuBodegaComboBox);
             Controls.Add(actuBodeLabel);
             Controls.Add(actuCategoComboBox);
@@ -171,5 +184,6 @@
         private ComboBox actuCategoComboBox;
         private Label actuBodeLabel;
         private ComboBox actuBodegaComboBox;
+        private Button button1;
     }
 }

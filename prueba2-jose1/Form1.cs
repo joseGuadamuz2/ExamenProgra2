@@ -1,4 +1,6 @@
-﻿using System.Windows.Forms;
+﻿using System.ComponentModel;
+using System.Windows.Forms;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace prueba2_jose1
 {
@@ -7,6 +9,9 @@ namespace prueba2_jose1
     {
         public List<inventario> inventarioCompleto = new List<inventario>();
         public List<Bodegas> bodegasLista = new List<Bodegas>();
+        public List<inventario> cargaDatosActu = new List<inventario>();
+
+
 
 
         public Form1()
@@ -52,9 +57,16 @@ namespace prueba2_jose1
 
         public void cargarLista()
         {
-
+            if (mainGridView.Columns["Eliminar"] != null)
+            {
+                mainGridView.Columns.Remove("Eliminar");
+                mainGridView.Columns.Remove("Actualizar");
+            }
+               
             mainGridView.DataSource = null;
             mainGridView.DataSource = inventarioCompleto;
+           
+
             if (mainGridView.Columns["Eliminar"] == null)
             {
                 DataGridViewButtonColumn btnColumn = new DataGridViewButtonColumn();
@@ -73,8 +85,6 @@ namespace prueba2_jose1
                 btnColumn.UseColumnTextForButtonValue = true;
                 mainGridView.Columns.Add(btnColumn);
 
-
-
             }
 
         }
@@ -86,6 +96,14 @@ namespace prueba2_jose1
               string selectedId = (string)mainGridView.Rows[e.RowIndex].Cells["Nombre"].Value;
                 MessageBox.Show(string.Format("Hola {0}", selectedId));
                 eliminarArticulo(selectedId);
+
+
+            }
+            if (e.ColumnIndex == mainGridView.Columns["Actualizar"].Index && e.RowIndex >= 0)
+            {
+                string selectedId = (string)mainGridView.Rows[e.RowIndex].Cells["Nombre"].Value;
+                MessageBox.Show(string.Format("Hola {0}", selectedId));
+                datosCargarActualizar(selectedId);
 
 
             }
@@ -122,28 +140,62 @@ namespace prueba2_jose1
 
         }
 
-        public void actualizaArticulo(string nomArt)
+        //carga las variables para mostrar en el form de actualizar.
+        public void datosCargarActualizar(string nomArt)
         {
 
             try
             {
+
+                cargaDatosActu.Clear();
                 for (int i = 0; i < inventarioCompleto.Count; i++)
                 {
                     var articulo = inventarioCompleto[i];
-
                     if (articulo.Nombre == nomArt)
                     {
 
-                        MessageBox.Show("Encontrado");
+
+                        cargaDatosActu.Add(new inventario(articulo.Nombre, articulo.precio, articulo.Cantidad, articulo.Categoria, articulo.Bodega, articulo.NumMin, articulo.NumMax));
+                        
 
                     }
                 }
-                cargarLista();
+                
+                ActualizarArticulo actuAr = new ActualizarArticulo(bodegasLista,cargaDatosActu);
+                AddOwnedForm(actuAr);
+                actuAr.ShowDialog();
+
+               
             }
             catch
             {
                 MessageBox.Show("Ha ocurrido un error");
             }
+        }
+
+        public void actualizarDatos(string nombre, double precio, int cantidad, string categoria, string bodega, int minimo, int maximo,string nomAnterior)
+        {
+            for (int i = 0; i < inventarioCompleto.Count; i++)
+            {
+                var articulo = inventarioCompleto[i];
+                if (articulo.Nombre == nomAnterior)
+                {
+                    // Actualizar las propiedades del artículo existente
+                    articulo.Nombre = nombre;
+                    articulo.Precio = precio;
+                    articulo.Cantidad = cantidad;
+                    articulo.Categoria = categoria;
+                    articulo.Bodega = bodega;
+                    articulo.NumMin = minimo;
+                    articulo.NumMax = maximo;
+
+                    MessageBox.Show("Se ha ejecutado");
+                    break; // Salir del bucle después de actualizar el artículo
+                }
+            }
+
+                cargarLista();
+
         }
 
 
