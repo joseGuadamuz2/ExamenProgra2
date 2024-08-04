@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\users\\guada karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\agregararticuloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\agregararticuloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\users\\guada karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\agregararticuloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\agregararticuloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\users\\guada karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "inventario.cs",
+              "DocumentMoniker": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\inventario.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\inventario.cs",
+              "ToolTip": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\inventario.cs",
+              "RelativeToolTip": "prueba2-jose1\\inventario.cs",
+              "ViewState": "AQIAAAUAAACAaWZmZmYUwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T19:28:06.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "agregarArticuloForm.cs",
+              "DocumentMoniker": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\agregarArticuloForm.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\agregarArticuloForm.cs",
+              "ToolTip": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\agregarArticuloForm.cs",
+              "RelativeToolTip": "prueba2-jose1\\agregarArticuloForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T17:09:35.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "agregarArticuloForm.cs [Design - English]",
+              "DocumentMoniker": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\agregarArticuloForm.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\agregarArticuloForm.cs",
+              "ToolTip": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\agregarArticuloForm.cs [Design - English]",
+              "RelativeToolTip": "prueba2-jose1\\agregarArticuloForm.cs [Design - English]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T17:09:22.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\Form1.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\Form1.cs",
+              "RelativeToolTip": "prueba2-jose1\\Form1.cs",
+              "ViewState": "AQIAAB0AAAAA2MzMzMwDwC8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:37:26.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design - English]",
+              "DocumentMoniker": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\Form1.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Guada Karaoke\\source\\repos\\prueba2-jose1\\prueba2-jose1\\Form1.cs [Design - English]",
+              "RelativeToolTip": "prueba2-jose1\\Form1.cs [Design - English]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:54:38.379Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
