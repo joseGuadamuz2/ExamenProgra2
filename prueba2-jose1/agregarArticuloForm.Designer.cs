@@ -29,136 +29,135 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(agregarArticuloForm));
-            nombreArtLabel = new Label();
-            agregarArtiInput = new TextBox();
-            precioInput = new TextBox();
-            precioLabel = new Label();
-            cantidadInventario = new TextBox();
-            cantidadLabel = new Label();
-            categLabel = new Label();
-            categComboBox = new ComboBox();
-            bodegaLabel = new Label();
-            bodegaComboBox = new ComboBox();
-            numMinLabel = new Label();
-            minInput = new TextBox();
-            numMaxLabel = new Label();
-            maxInput = new TextBox();
-            guardarBtn = new Button();
-            cancelarGuardado = new Button();
+            lblName = new Label();
+            txtName = new TextBox();
+            txtPrice = new TextBox();
+            lblPrice = new Label();
+            txtAmount = new TextBox();
+            lblAmount = new Label();
+            lblCategory = new Label();
+            cbCateory = new ComboBox();
+            lblStore = new Label();
+            cbStore = new ComboBox();
+            lblMinAmount = new Label();
+            txtMinAmount = new TextBox();
+            lblMaxAmount = new Label();
+            txtMaxAmount = new TextBox();
+            btnSave = new Button();
+            btnCancel = new Button();
             SuspendLayout();
             // 
-            // nombreArtLabel
+            // lblName
             // 
-            resources.ApplyResources(nombreArtLabel, "nombreArtLabel");
-            nombreArtLabel.Name = "nombreArtLabel";
+            resources.ApplyResources(lblName, "lblName");
+            lblName.Name = "lblName";
             // 
-            // agregarArtiInput
+            // txtName
             // 
-            resources.ApplyResources(agregarArtiInput, "agregarArtiInput");
-            agregarArtiInput.Name = "agregarArtiInput";
-            agregarArtiInput.KeyPress += agregarArtiInput_KeyPress;
+            resources.ApplyResources(txtName, "txtName");
+            txtName.Name = "txtName";
             // 
-            // precioInput
+            // txtPrice
             // 
-            resources.ApplyResources(precioInput, "precioInput");
-            precioInput.Name = "precioInput";
-            precioInput.TextChanged += precioInput_TextChanged;
+            resources.ApplyResources(txtPrice, "txtPrice");
+            txtPrice.Name = "txtPrice";
+            txtPrice.KeyPress += txtPrice_KeyPress;
             // 
-            // precioLabel
+            // lblPrice
             // 
-            resources.ApplyResources(precioLabel, "precioLabel");
-            precioLabel.Name = "precioLabel";
+            resources.ApplyResources(lblPrice, "lblPrice");
+            lblPrice.Name = "lblPrice";
             // 
-            // cantidadInventario
+            // txtAmount
             // 
-            resources.ApplyResources(cantidadInventario, "cantidadInventario");
-            cantidadInventario.Name = "cantidadInventario";
+            resources.ApplyResources(txtAmount, "txtAmount");
+            txtAmount.Name = "txtAmount";
             // 
-            // cantidadLabel
+            // lblAmount
             // 
-            resources.ApplyResources(cantidadLabel, "cantidadLabel");
-            cantidadLabel.Name = "cantidadLabel";
-            cantidadLabel.Click += label1_Click;
+            resources.ApplyResources(lblAmount, "lblAmount");
+            lblAmount.Name = "lblAmount";
+            lblAmount.Click += label1_Click;
             // 
-            // categLabel
+            // lblCategory
             // 
-            resources.ApplyResources(categLabel, "categLabel");
-            categLabel.Name = "categLabel";
+            resources.ApplyResources(lblCategory, "lblCategory");
+            lblCategory.Name = "lblCategory";
             // 
-            // categComboBox
+            // cbCateory
             // 
-            resources.ApplyResources(categComboBox, "categComboBox");
-            categComboBox.FormattingEnabled = true;
-            categComboBox.Items.AddRange(new object[] { resources.GetString("categComboBox.Items"), resources.GetString("categComboBox.Items1"), resources.GetString("categComboBox.Items2"), resources.GetString("categComboBox.Items3"), resources.GetString("categComboBox.Items4") });
-            categComboBox.Name = "categComboBox";
-            categComboBox.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            resources.ApplyResources(cbCateory, "cbCateory");
+            cbCateory.FormattingEnabled = true;
+            cbCateory.Items.AddRange(new object[] { resources.GetString("cbCateory.Items"), resources.GetString("cbCateory.Items1"), resources.GetString("cbCateory.Items2"), resources.GetString("cbCateory.Items3"), resources.GetString("cbCateory.Items4") });
+            cbCateory.Name = "cbCateory";
+            cbCateory.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
-            // bodegaLabel
+            // lblStore
             // 
-            resources.ApplyResources(bodegaLabel, "bodegaLabel");
-            bodegaLabel.Name = "bodegaLabel";
+            resources.ApplyResources(lblStore, "lblStore");
+            lblStore.Name = "lblStore";
             // 
-            // bodegaComboBox
+            // cbStore
             // 
-            resources.ApplyResources(bodegaComboBox, "bodegaComboBox");
-            bodegaComboBox.FormattingEnabled = true;
-            bodegaComboBox.Name = "bodegaComboBox";
-            bodegaComboBox.SelectedIndexChanged += bodegaComboBox_SelectedIndexChanged;
+            resources.ApplyResources(cbStore, "cbStore");
+            cbStore.FormattingEnabled = true;
+            cbStore.Name = "cbStore";
+            cbStore.SelectedIndexChanged += bodegaComboBox_SelectedIndexChanged;
             // 
-            // numMinLabel
+            // lblMinAmount
             // 
-            resources.ApplyResources(numMinLabel, "numMinLabel");
-            numMinLabel.Name = "numMinLabel";
+            resources.ApplyResources(lblMinAmount, "lblMinAmount");
+            lblMinAmount.Name = "lblMinAmount";
             // 
-            // minInput
+            // txtMinAmount
             // 
-            resources.ApplyResources(minInput, "minInput");
-            minInput.Name = "minInput";
+            resources.ApplyResources(txtMinAmount, "txtMinAmount");
+            txtMinAmount.Name = "txtMinAmount";
             // 
-            // numMaxLabel
+            // lblMaxAmount
             // 
-            resources.ApplyResources(numMaxLabel, "numMaxLabel");
-            numMaxLabel.Name = "numMaxLabel";
+            resources.ApplyResources(lblMaxAmount, "lblMaxAmount");
+            lblMaxAmount.Name = "lblMaxAmount";
             // 
-            // maxInput
+            // txtMaxAmount
             // 
-            resources.ApplyResources(maxInput, "maxInput");
-            maxInput.Name = "maxInput";
+            resources.ApplyResources(txtMaxAmount, "txtMaxAmount");
+            txtMaxAmount.Name = "txtMaxAmount";
             // 
-            // guardarBtn
+            // btnSave
             // 
-            resources.ApplyResources(guardarBtn, "guardarBtn");
-            guardarBtn.Name = "guardarBtn";
-            guardarBtn.UseVisualStyleBackColor = true;
-            guardarBtn.Click += guardarBtn_Click;
+            resources.ApplyResources(btnSave, "btnSave");
+            btnSave.Name = "btnSave";
+            btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += guardarBtn_Click;
             // 
-            // cancelarGuardado
+            // btnCancel
             // 
-            resources.ApplyResources(cancelarGuardado, "cancelarGuardado");
-            cancelarGuardado.Name = "cancelarGuardado";
-            cancelarGuardado.UseVisualStyleBackColor = true;
-            cancelarGuardado.Click += cancelarGuardado_Click;
+            resources.ApplyResources(btnCancel, "btnCancel");
+            btnCancel.Name = "btnCancel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += cancelarGuardado_Click;
             // 
             // agregarArticuloForm
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(cancelarGuardado);
-            Controls.Add(guardarBtn);
-            Controls.Add(maxInput);
-            Controls.Add(numMaxLabel);
-            Controls.Add(minInput);
-            Controls.Add(numMinLabel);
-            Controls.Add(bodegaComboBox);
-            Controls.Add(bodegaLabel);
-            Controls.Add(categComboBox);
-            Controls.Add(categLabel);
-            Controls.Add(cantidadInventario);
-            Controls.Add(cantidadLabel);
-            Controls.Add(precioInput);
-            Controls.Add(precioLabel);
-            Controls.Add(agregarArtiInput);
-            Controls.Add(nombreArtLabel);
+            Controls.Add(btnCancel);
+            Controls.Add(btnSave);
+            Controls.Add(txtMaxAmount);
+            Controls.Add(lblMaxAmount);
+            Controls.Add(txtMinAmount);
+            Controls.Add(lblMinAmount);
+            Controls.Add(cbStore);
+            Controls.Add(lblStore);
+            Controls.Add(cbCateory);
+            Controls.Add(lblCategory);
+            Controls.Add(txtAmount);
+            Controls.Add(lblAmount);
+            Controls.Add(txtPrice);
+            Controls.Add(lblPrice);
+            Controls.Add(txtName);
+            Controls.Add(lblName);
             Name = "agregarArticuloForm";
             Load += agregarArticuloForm_Load;
             ResumeLayout(false);
@@ -167,21 +166,21 @@
 
         #endregion
 
-        private Label nombreArtLabel;
-        private TextBox agregarArtiInput;
-        private TextBox precioInput;
-        private Label precioLabel;
-        private TextBox cantidadInventario;
-        private Label cantidadLabel;
-        private Label categLabel;
-        private ComboBox categComboBox;
-        private Label bodegaLabel;
-        private ComboBox bodegaComboBox;
-        private Label numMinLabel;
-        private TextBox minInput;
-        private Label numMaxLabel;
-        private TextBox maxInput;
-        private Button guardarBtn;
-        private Button cancelarGuardado;
+        private Label lblName;
+        private TextBox txtName;
+        private TextBox txtPrice;
+        private Label lblPrice;
+        private TextBox txtAmount;
+        private Label lblAmount;
+        private Label lblCategory;
+        private ComboBox cbCateory;
+        private Label lblStore;
+        private ComboBox cbStore;
+        private Label lblMinAmount;
+        private TextBox txtMinAmount;
+        private Label lblMaxAmount;
+        private TextBox txtMaxAmount;
+        private Button btnSave;
+        private Button btnCancel;
     }
 }

@@ -44,7 +44,7 @@
             // 
             // actualizarBtn
             // 
-            actualizarBtn.Location = new Point(232, 208);
+            actualizarBtn.Location = new Point(131, 217);
             actualizarBtn.Name = "actualizarBtn";
             actualizarBtn.Size = new Size(75, 23);
             actualizarBtn.TabIndex = 0;
@@ -55,7 +55,7 @@
             // actuNombreLabel
             // 
             actuNombreLabel.AutoSize = true;
-            actuNombreLabel.Location = new Point(172, 33);
+            actuNombreLabel.Location = new Point(71, 42);
             actuNombreLabel.Name = "actuNombreLabel";
             actuNombreLabel.Size = new Size(54, 15);
             actuNombreLabel.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             // actualizarNomInput
             // 
-            actualizarNomInput.Location = new Point(232, 30);
+            actualizarNomInput.Location = new Point(131, 39);
             actualizarNomInput.Name = "actualizarNomInput";
             actualizarNomInput.Size = new Size(202, 23);
             actualizarNomInput.TabIndex = 2;
@@ -71,7 +71,7 @@
             // actuPrecioLabel
             // 
             actuPrecioLabel.AutoSize = true;
-            actuPrecioLabel.Location = new Point(183, 68);
+            actuPrecioLabel.Location = new Point(82, 77);
             actuPrecioLabel.Name = "actuPrecioLabel";
             actuPrecioLabel.Size = new Size(43, 15);
             actuPrecioLabel.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // actualizarPrecioInput
             // 
-            actualizarPrecioInput.Location = new Point(232, 65);
+            actualizarPrecioInput.Location = new Point(131, 74);
             actualizarPrecioInput.Name = "actualizarPrecioInput";
             actualizarPrecioInput.Size = new Size(202, 23);
             actualizarPrecioInput.TabIndex = 4;
@@ -87,7 +87,7 @@
             // actuCantInventarioLabel
             // 
             actuCantInventarioLabel.AutoSize = true;
-            actuCantInventarioLabel.Location = new Point(112, 97);
+            actuCantInventarioLabel.Location = new Point(11, 106);
             actuCantInventarioLabel.Name = "actuCantInventarioLabel";
             actuCantInventarioLabel.Size = new Size(114, 15);
             actuCantInventarioLabel.TabIndex = 5;
@@ -95,7 +95,7 @@
             // 
             // actualizarCantidadInventarioInput
             // 
-            actualizarCantidadInventarioInput.Location = new Point(232, 94);
+            actualizarCantidadInventarioInput.Location = new Point(131, 103);
             actualizarCantidadInventarioInput.Name = "actualizarCantidadInventarioInput";
             actualizarCantidadInventarioInput.Size = new Size(202, 23);
             actualizarCantidadInventarioInput.TabIndex = 6;
@@ -103,7 +103,7 @@
             // actuCategoLabel
             // 
             actuCategoLabel.AutoSize = true;
-            actuCategoLabel.Location = new Point(165, 131);
+            actuCategoLabel.Location = new Point(64, 140);
             actuCategoLabel.Name = "actuCategoLabel";
             actuCategoLabel.Size = new Size(61, 15);
             actuCategoLabel.TabIndex = 7;
@@ -113,7 +113,7 @@
             // 
             actuCategoComboBox.FormattingEnabled = true;
             actuCategoComboBox.Items.AddRange(new object[] { "Alimento", "Limpieza", "Hogar", "Mascotas", "Oficina" });
-            actuCategoComboBox.Location = new Point(232, 128);
+            actuCategoComboBox.Location = new Point(131, 137);
             actuCategoComboBox.Name = "actuCategoComboBox";
             actuCategoComboBox.Size = new Size(202, 23);
             actuCategoComboBox.TabIndex = 8;
@@ -122,7 +122,7 @@
             // actuBodeLabel
             // 
             actuBodeLabel.AutoSize = true;
-            actuBodeLabel.Location = new Point(176, 166);
+            actuBodeLabel.Location = new Point(75, 175);
             actuBodeLabel.Name = "actuBodeLabel";
             actuBodeLabel.Size = new Size(50, 15);
             actuBodeLabel.TabIndex = 9;
@@ -131,7 +131,7 @@
             // actuBodegaComboBox
             // 
             actuBodegaComboBox.FormattingEnabled = true;
-            actuBodegaComboBox.Location = new Point(232, 158);
+            actuBodegaComboBox.Location = new Point(131, 167);
             actuBodegaComboBox.Name = "actuBodegaComboBox";
             actuBodegaComboBox.Size = new Size(202, 23);
             actuBodegaComboBox.TabIndex = 10;
@@ -139,7 +139,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(359, 208);
+            button1.Location = new Point(258, 217);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 11;
@@ -151,7 +151,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(412, 302);
             Controls.Add(button1);
             Controls.Add(actuBodegaComboBox);
             Controls.Add(actuBodeLabel);

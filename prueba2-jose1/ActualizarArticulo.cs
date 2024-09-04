@@ -51,6 +51,11 @@ namespace prueba2_jose1
                 string categoriaA = categoriaSelecActu;
                 string bodegaA = bodegaSelecActu;
 
+                if (!amountValidation(minA, maxA, cantidadA))
+                {
+                    return;
+                };
+
                 Form1 frm = Owner as Form1;
                 var result = MessageBox.Show("¿Desea actualizar el artículo?", "Confirmación", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
@@ -124,7 +129,20 @@ namespace prueba2_jose1
                 actuBodegaComboBox.SelectedIndex = 0;
             }
         }
-
+        private bool amountValidation(int amountMin, int amountMax, int amount)
+        {
+            if (amount < amountMin)
+            {
+                MessageBox.Show("la cantidad es menor al minimo establecido", "Aviso");
+                return false;
+            }
+            else if (amount > amountMax)
+            {
+                MessageBox.Show("la cantidad es mayor al máximo estabecido", "Aviso");
+                return false;
+            }
+            return true;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Close();

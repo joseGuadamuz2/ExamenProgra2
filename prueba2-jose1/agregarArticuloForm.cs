@@ -24,6 +24,8 @@ namespace prueba2_jose1
             InitializeComponent();
             cargarDatosCombo(bode);
 
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -33,12 +35,19 @@ namespace prueba2_jose1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            categoriaSelec = categComboBox.SelectedItem as string;
+            categoriaSelec = cbCateory.SelectedItem as string;
         }
 
         private void agregarArticuloForm_Load(object sender, EventArgs e)
         {
-          
+            if (cbCateory.Items.Count > 0)
+            {
+                cbCateory.SelectedIndex = 0;  // Selecciona el primer ítem
+            }
+            if (cbStore.Items.Count > 0)
+            {
+                cbStore.SelectedIndex = 0;  // Selecciona el primer ítem
+            }
         }
 
         private void cancelarGuardado_Click(object sender, EventArgs e)
@@ -50,13 +59,23 @@ namespace prueba2_jose1
         {
             try
             {
-                string nombreA = agregarArtiInput.Text;
-                double precioA = double.Parse(precioInput.Text);
-                int cantidadA = int.Parse(cantidadInventario.Text);
+                string nombreA = txtName.Text;
+                double precioA = double.Parse(txtPrice.Text);
+                int cantidadA = int.Parse(txtAmount.Text);
                 string categoriaA = categoriaSelec;
                 string bodegaA = bodegaSelec;
-                int minA = int.Parse(minInput.Text);
-                int maxA = int.Parse(maxInput.Text);
+                int minA = int.Parse(txtMinAmount.Text);
+                int maxA = int.Parse(txtMaxAmount.Text);
+                if (!minMaxValidation(minA, maxA))
+                {
+                    return; // Si la validación falla, no continúa
+                }
+
+                if (!amountValidation(minA, maxA, cantidadA))
+                {
+                    return;
+                };
+
 
                 Form1 frm = Owner as Form1;
 
@@ -66,7 +85,7 @@ namespace prueba2_jose1
                 if (result == DialogResult.Yes)
                 {
                     frm.agregarArticulo(nombreA, precioA, cantidadA, categoriaA, bodegaA, minA, maxA);
-                 
+
 
                 }
 
@@ -81,16 +100,16 @@ namespace prueba2_jose1
 
         private void bodegaComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            bodegaSelec = bodegaComboBox.SelectedItem as string;
+            bodegaSelec = cbStore.SelectedItem as string;
         }
         private void cargarDatosCombo(List<Bodegas> bode1)
         {
 
-            bodegaComboBox.DataContext = null;
+            cbStore.DataContext = null;
             for (int i = 0; i < bode1.Count; i++)
             {
                 var bodega2 = bode1[i];
-                bodegaComboBox.Items.Add(bodega2.NombreBodega);
+                cbStore.Items.Add(bodega2.NombreBodega);
             }
 
 
@@ -108,9 +127,54 @@ namespace prueba2_jose1
 
         }
 
-        private void precioInput_TextChanged(object sender, EventArgs e)
+        private void txtPrice_KeyPress(object sender, KeyPressEventArgs e)
         {
-          
+
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
+
+        private bool amountValidation(int amountMin, int amountMax, int amount)
+        {
+            if (amount < amountMin)
+            {
+                MessageBox.Show("la cantidad es menor al minimo establecido", "Aviso");
+                return false;
+            }
+            else if (amount > amountMax)
+            {
+                MessageBox.Show("la cantidad es menor al máximo estabecido", "Aviso");
+                return false;
+            }
+               return true;
+        }
+        private bool minMaxValidation(int amountMin, int amountMax)
+        {
+            if (amountMin > amountMax)
+            {
+                MessageBox.Show("El monto mínimo no puede ser mayor al máximo", "Aviso");
+                return false;
+            }
+            if (amountMin < 0)
+            {
+                MessageBox.Show("El monto mínimo no puede ser negativo", "Aviso");
+                return false;
+            }
+            if (amountMax < 1)
+            {
+                MessageBox.Show("El monto máximo no puede ser cero o  negativo", "Aviso");
+                return false;
+            }
+
+            return true; // Si todas las validaciones pasan, retorna true
+        }
+
+
+
+
+
     }
+    
 }
