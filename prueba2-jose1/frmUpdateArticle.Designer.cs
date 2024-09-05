@@ -1,6 +1,6 @@
 ﻿namespace prueba2_jose1
 {
-    partial class ActualizarArticulo
+    partial class frmUpdateArticle
     {
         /// <summary>
         /// Required designer variable.

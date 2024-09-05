@@ -14,11 +14,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace prueba2_jose1
 {
-    public partial class agregarArticuloForm : Form
+    public partial class frmAddArticle : Form
     {
         public string categoriaSelec;
         public string bodegaSelec;
-        public agregarArticuloForm(List<Bodegas> bode)
+        public frmAddArticle(List<Storage> bode)
         {
 
             InitializeComponent();
@@ -77,14 +77,14 @@ namespace prueba2_jose1
                 };
 
 
-                Form1 frm = Owner as Form1;
+                frmMain frm = Owner as frmMain;
 
 
 
                 var result = MessageBox.Show("¿Desea guardar el artículo?", "Confirmación", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    frm.agregarArticulo(nombreA, precioA, cantidadA, categoriaA, bodegaA, minA, maxA);
+                    frm.AddArticle(nombreA, precioA, cantidadA, categoriaA, bodegaA, minA, maxA);
 
 
                 }
@@ -102,14 +102,14 @@ namespace prueba2_jose1
         {
             bodegaSelec = cbStore.SelectedItem as string;
         }
-        private void cargarDatosCombo(List<Bodegas> bode1)
+        private void cargarDatosCombo(List<Storage> bode1)
         {
 
             cbStore.DataContext = null;
             for (int i = 0; i < bode1.Count; i++)
             {
                 var bodega2 = bode1[i];
-                cbStore.Items.Add(bodega2.NombreBodega);
+                cbStore.Items.Add(bodega2.StorageName);
             }
 
 

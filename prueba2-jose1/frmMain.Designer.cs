@@ -1,6 +1,6 @@
 ﻿namespace prueba2_jose1
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            mainGridView = new DataGridView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            dgvMain = new DataGridView();
             menuStrip1 = new MenuStrip();
             agregarToolStripMenuItem = new ToolStripMenuItem();
             artículosToolStripMenuItem = new ToolStripMenuItem();
             bodegaToolStripMenuItem = new ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)mainGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMain).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // mainGridView
+            // dgvMain
             // 
-            resources.ApplyResources(mainGridView, "mainGridView");
-            mainGridView.AllowUserToOrderColumns = true;
-            mainGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            mainGridView.Name = "mainGridView";
-            mainGridView.CellContentClick += mainGridView_CellContentClick;
+            resources.ApplyResources(dgvMain, "dgvMain");
+            dgvMain.AllowUserToOrderColumns = true;
+            dgvMain.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMain.Name = "dgvMain";
+            dgvMain.CellContentClick += dgvMain_CellContentClick;
             // 
             // menuStrip1
             // 
@@ -70,16 +70,16 @@
             bodegaToolStripMenuItem.Name = "bodegaToolStripMenuItem";
             bodegaToolStripMenuItem.Click += bodegaToolStripMenuItem_Click;
             // 
-            // Form1
+            // frmMain
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(mainGridView);
+            Controls.Add(dgvMain);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)mainGridView).EndInit();
+            Name = "frmMain";
+            Load += frmMain_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvMain).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -88,7 +88,7 @@
 
         #endregion
 
-        private DataGridView mainGridView;
+        private DataGridView dgvMain;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem agregarToolStripMenuItem;
         private ToolStripMenuItem artículosToolStripMenuItem;

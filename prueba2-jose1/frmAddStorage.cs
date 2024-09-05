@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace prueba2_jose1
 {
-    public partial class agregarBodegas : Form
+    public partial class frmAddStorage : Form
     {
         public string nombreBode;
         public string ubicacionBode;
 
-        public agregarBodegas()
+        public frmAddStorage()
         {
             InitializeComponent();
         }
@@ -30,11 +30,11 @@ namespace prueba2_jose1
             try
             {
                 nombreBode = nombreBodeInput.Text;
-                Form1 frm = Owner as Form1;
+                frmMain frm = Owner as frmMain;
                 var result = MessageBox.Show("¿Desea guardar la bodega?", "Confirmación", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    frm.agregarBodega(nombreBode, ubicacionBode);
+                    frm.AddStorage(nombreBode, ubicacionBode);
 
                 }
             }

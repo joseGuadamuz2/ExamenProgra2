@@ -1,6 +1,6 @@
 ﻿namespace prueba2_jose1
 {
-    partial class agregarBodegas
+    partial class frmAddStorage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(agregarBodegas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddStorage));
             nomBodeLable = new Label();
             nombreBodeInput = new TextBox();
             ubicacionLabel = new Label();

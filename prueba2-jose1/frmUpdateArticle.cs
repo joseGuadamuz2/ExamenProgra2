@@ -1,19 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.Versioning;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Tab;
+﻿
 
 namespace prueba2_jose1
 {
-    public partial class ActualizarArticulo : Form
+    public partial class frmUpdateArticle : Form
     {
         public string categoriaSelecActu;
         public string bodegaSelecActu;
@@ -21,7 +10,7 @@ namespace prueba2_jose1
         public int minA;
         public int maxA;
 
-        public ActualizarArticulo(List<Bodegas> bodeActu, List<inventario> datosVis)
+        public frmUpdateArticle(List<Storage> bodeActu, List<inventory> datosVis)
         {
             InitializeComponent();
             cargarDatosComboActu(bodeActu);
@@ -56,12 +45,12 @@ namespace prueba2_jose1
                     return;
                 };
 
-                Form1 frm = Owner as Form1;
+                frmMain frm = Owner as frmMain;
                 var result = MessageBox.Show("¿Desea actualizar el artículo?", "Confirmación", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    frm.actualizarDatos(nombreA, precioA, cantidadA, categoriaA, bodegaA, minA, maxA, nomAnterior);
-                    frm.cargarLista();
+                    frm.UpdateDataArticle(nombreA, precioA, cantidadA, categoriaA, bodegaA, minA, maxA, nomAnterior);
+                    frm.ChargeList();
 
                 }
 
@@ -76,32 +65,32 @@ namespace prueba2_jose1
         {
             bodegaSelecActu = actuBodegaComboBox.SelectedItem as string;
         }
-        private void cargarDatosComboActu(List<Bodegas> bode1)
+        private void cargarDatosComboActu(List<Storage> bode1)
         {
 
             actuBodegaComboBox.DataContext = null;
             for (int i = 0; i < bode1.Count; i++)
             {
                 var bodega2 = bode1[i];
-                actuBodegaComboBox.Items.Add(bodega2.NombreBodega);
+                actuBodegaComboBox.Items.Add(bodega2.StorageName);
             }
 
 
 
         }
 
-        public void vizualizarDatos(List<inventario> datosVis1)
+        public void vizualizarDatos(List<inventory> datosVis1)
         {
             var list = datosVis1[0];
 
-            nomAnterior = list.Nombre;
-            actualizarNomInput.Text = list.Nombre;
-            actualizarPrecioInput.Text = list.precio.ToString();
-            actualizarCantidadInventarioInput.Text = list.Cantidad.ToString();
-            minA = list.NumMin;
-            maxA = list.NumMax;
-            preSeleccionCateg(list.Categoria);
-            preSeleccionBode(list.Bodega);
+            nomAnterior = list.Name;
+            actualizarNomInput.Text = list.Name;
+            actualizarPrecioInput.Text = list.Price.ToString();
+            actualizarCantidadInventarioInput.Text = list.Amount.ToString();
+            minA = list.MinAmount;
+            maxA = list.MaxAmount;
+            preSeleccionCateg(list.Category);
+            preSeleccionBode(list.Storage);
 
 
         }

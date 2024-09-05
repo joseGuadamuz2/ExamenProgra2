@@ -1,6 +1,6 @@
 ﻿namespace prueba2_jose1
 {
-    partial class agregarArticuloForm
+    partial class frmAddArticle
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(agregarArticuloForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddArticle));
             lblName = new Label();
             txtName = new TextBox();
             txtPrice = new TextBox();
