@@ -84,14 +84,14 @@ namespace prueba2_jose1
         {
             if (e.ColumnIndex == dgvMain.Columns["Eliminar"].Index && e.RowIndex >= 0)
             {
-                string selectedId = (string)dgvMain.Rows[e.RowIndex].Cells["Nombre"].Value;
+                string selectedId = (string)dgvMain.Rows[e.RowIndex].Cells["Name"].Value;
                 //MessageBox.Show(string.Format("Hello {0}", selectedId));
                 DeleteArticle(selectedId);
             }
 
             if (e.ColumnIndex == dgvMain.Columns["Actualizar"].Index && e.RowIndex >= 0)
             {
-                string selectedId = (string)dgvMain.Rows[e.RowIndex].Cells["Nombre"].Value;
+                string selectedId = (string)dgvMain.Rows[e.RowIndex].Cells["Name"].Value;
                 //MessageBox.Show(string.Format("Hello {0}", selectedId));
                 UpdateArticle(selectedId);
             }

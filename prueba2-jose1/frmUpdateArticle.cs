@@ -1,138 +1,128 @@
-﻿
-
-namespace prueba2_jose1
+﻿namespace prueba2_jose1
 {
     public partial class frmUpdateArticle : Form
     {
-        public string categoriaSelecActu;
-        public string bodegaSelecActu;
-        public string nomAnterior;
-        public int minA;
-        public int maxA;
+        public string NewCategorySelected;
+        public string NewStorageSelected;
+        public string BeforeName;
+        public int MinAmount;
+        public int MaxAmount;
 
-        public frmUpdateArticle(List<Storage> bodeActu, List<inventory> datosVis)
+        public frmUpdateArticle(List<Storage> updateStorage, List<inventory> dataInventory)
         {
             InitializeComponent();
-            cargarDatosComboActu(bodeActu);
-            vizualizarDatos(datosVis);
-
-
+            ChargeDataUpdateCB(updateStorage);
+            ChargeArticle(dataInventory);
         }
 
-        private void ActualizarArticulo_Load(object sender, EventArgs e)
+        private void frmUpdateArticle_Load(object sender, EventArgs e)
         {
-
         }
 
-        private void actuCategoComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
-            categoriaSelecActu = actuCategoComboBox.SelectedItem as string;
+            NewCategorySelected = cbCategory.SelectedItem as string;
         }
 
-        private void actualizarBtn_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e)
         {
             try
             {
+                string nameA = txtName.Text;
+                double priceA = double.Parse(txtPrice.Text);
+                int amountA = int.Parse(txtAmount.Text);
+                string categoryA = NewCategorySelected;
+                string storageA = NewStorageSelected;
 
-                string nombreA = actualizarNomInput.Text;
-                double precioA = double.Parse(actualizarPrecioInput.Text);
-                int cantidadA = int.Parse(actualizarCantidadInventarioInput.Text);
-                string categoriaA = categoriaSelecActu;
-                string bodegaA = bodegaSelecActu;
-
-                if (!amountValidation(minA, maxA, cantidadA))
+                if (!AmountValidation(MinAmount, MaxAmount, amountA))
                 {
                     return;
-                };
-
-                frmMain frm = Owner as frmMain;
-                var result = MessageBox.Show("¿Desea actualizar el artículo?", "Confirmación", MessageBoxButtons.YesNo);
-                if (result == DialogResult.Yes)
-                {
-                    frm.UpdateDataArticle(nombreA, precioA, cantidadA, categoriaA, bodegaA, minA, maxA, nomAnterior);
-                    frm.ChargeList();
-
                 }
 
+                frmMain frm = Owner as frmMain;
+                var result = MessageBox.Show("Do you want to update the article?", "Confirmation", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    frm.UpdateDataArticle(nameA, priceA, amountA, categoryA, storageA, MinAmount, MaxAmount, BeforeName);
+                    frm.ChargeList();
+                }
             }
             catch
             {
-                MessageBox.Show("Ha Ocurrido un error");
+                MessageBox.Show("An error has occurred");
             }
         }
 
-        private void actuBodegaComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbStorage_SelectedIndexChanged(object sender, EventArgs e)
         {
-            bodegaSelecActu = actuBodegaComboBox.SelectedItem as string;
+            NewStorageSelected = cbStorage.SelectedItem as string;
         }
-        private void cargarDatosComboActu(List<Storage> bode1)
-        {
 
-            actuBodegaComboBox.DataContext = null;
-            for (int i = 0; i < bode1.Count; i++)
+        private void ChargeDataUpdateCB(List<Storage> storages)
+        {
+            cbStorage.DataSource = null;
+            foreach (var storage in storages)
             {
-                var bodega2 = bode1[i];
-                actuBodegaComboBox.Items.Add(bodega2.StorageName);
+                cbStorage.Items.Add(storage.StorageName);
             }
-
-
-
         }
 
-        public void vizualizarDatos(List<inventory> datosVis1)
+        public void ChargeArticle(List<inventory> dataInventory)
         {
-            var list = datosVis1[0];
+            var item = dataInventory[0];
 
-            nomAnterior = list.Name;
-            actualizarNomInput.Text = list.Name;
-            actualizarPrecioInput.Text = list.Price.ToString();
-            actualizarCantidadInventarioInput.Text = list.Amount.ToString();
-            minA = list.MinAmount;
-            maxA = list.MaxAmount;
-            preSeleccionCateg(list.Category);
-            preSeleccionBode(list.Storage);
-
-
+            BeforeName = item.Name;
+            txtName.Text = item.Name;
+            txtPrice.Text = item.Price.ToString();
+            txtAmount.Text = item.Amount.ToString();
+            MinAmount = item.MinAmount;
+            MaxAmount = item.MaxAmount;
+            PreSelectionCategory(item.Category);
+            PreSelectionStorage(item.Storage);
         }
-        public void preSeleccionCateg(string opc)
+
+        public void PreSelectionCategory(string option)
         {
-            if (actuCategoComboBox.Items.Contains(opc))
+            if (cbCategory.Items.Contains(option))
             {
-                actuCategoComboBox.SelectedItem = opc;
+                cbCategory.SelectedItem = option;
             }
             else
             {
-                // Seleccionar la primera opción por defecto si no se encuentra la preseleccionada
-                actuCategoComboBox.SelectedIndex = 0;
+                // Select the first option by default if the preselected option is not found
+                cbCategory.SelectedIndex = 0;
             }
         }
-        public void preSeleccionBode(string opc)
+
+        public void PreSelectionStorage(string option)
         {
-            if (actuBodegaComboBox.Items.Contains(opc))
+            if (cbStorage.Items.Contains(option))
             {
-                actuBodegaComboBox.SelectedItem = opc;
+                cbStorage.SelectedItem = option;
             }
             else
             {
-                // Seleccionar la primera opción por defecto si no se encuentra la preseleccionada
-                actuBodegaComboBox.SelectedIndex = 0;
+                // Select the first option by default if the preselected option is not found
+                cbStorage.SelectedIndex = 0;
             }
         }
-        private bool amountValidation(int amountMin, int amountMax, int amount)
+
+        private bool AmountValidation(int minAmount, int maxAmount, int amount)
         {
-            if (amount < amountMin)
+            if (amount < minAmount)
             {
-                MessageBox.Show("la cantidad es menor al minimo establecido", "Aviso");
+                MessageBox.Show("The amount is less than the minimum established", "Warning");
                 return false;
             }
-            else if (amount > amountMax)
+            else if (amount > maxAmount)
             {
-                MessageBox.Show("la cantidad es mayor al máximo estabecido", "Aviso");
+                MessageBox.Show("The amount exceeds the maximum established", "Warning");
                 return false;
             }
             return true;
         }
-        private void button1_Click(object sender, EventArgs e)
+
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             Close();
         }

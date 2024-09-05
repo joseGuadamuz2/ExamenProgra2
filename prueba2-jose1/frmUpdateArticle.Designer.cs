@@ -28,162 +28,162 @@
         /// </summary>
         private void InitializeComponent()
         {
-            actualizarBtn = new Button();
-            actuNombreLabel = new Label();
-            actualizarNomInput = new TextBox();
-            actuPrecioLabel = new Label();
-            actualizarPrecioInput = new TextBox();
-            actuCantInventarioLabel = new Label();
-            actualizarCantidadInventarioInput = new TextBox();
-            actuCategoLabel = new Label();
-            actuCategoComboBox = new ComboBox();
-            actuBodeLabel = new Label();
-            actuBodegaComboBox = new ComboBox();
-            button1 = new Button();
+            btnUpdate = new Button();
+            lblName = new Label();
+            txtName = new TextBox();
+            lblPrice = new Label();
+            txtPrice = new TextBox();
+            lblAmount = new Label();
+            txtAmount = new TextBox();
+            lblCategory = new Label();
+            cbCategory = new ComboBox();
+            lblStorage = new Label();
+            cbStorage = new ComboBox();
+            btnClose = new Button();
             SuspendLayout();
             // 
-            // actualizarBtn
+            // btnUpdate
             // 
-            actualizarBtn.Location = new Point(131, 217);
-            actualizarBtn.Name = "actualizarBtn";
-            actualizarBtn.Size = new Size(75, 23);
-            actualizarBtn.TabIndex = 0;
-            actualizarBtn.Text = "Actualizar";
-            actualizarBtn.UseVisualStyleBackColor = true;
-            actualizarBtn.Click += actualizarBtn_Click;
+            btnUpdate.Location = new Point(131, 217);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(75, 23);
+            btnUpdate.TabIndex = 0;
+            btnUpdate.Text = "Actualizar";
+            btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
-            // actuNombreLabel
+            // lblName
             // 
-            actuNombreLabel.AutoSize = true;
-            actuNombreLabel.Location = new Point(71, 42);
-            actuNombreLabel.Name = "actuNombreLabel";
-            actuNombreLabel.Size = new Size(54, 15);
-            actuNombreLabel.TabIndex = 1;
-            actuNombreLabel.Text = "Nombre:";
+            lblName.AutoSize = true;
+            lblName.Location = new Point(71, 42);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(54, 15);
+            lblName.TabIndex = 1;
+            lblName.Text = "Nombre:";
             // 
-            // actualizarNomInput
+            // txtName
             // 
-            actualizarNomInput.Location = new Point(131, 39);
-            actualizarNomInput.Name = "actualizarNomInput";
-            actualizarNomInput.Size = new Size(202, 23);
-            actualizarNomInput.TabIndex = 2;
+            txtName.Location = new Point(131, 39);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(202, 23);
+            txtName.TabIndex = 2;
             // 
-            // actuPrecioLabel
+            // lblPrice
             // 
-            actuPrecioLabel.AutoSize = true;
-            actuPrecioLabel.Location = new Point(82, 77);
-            actuPrecioLabel.Name = "actuPrecioLabel";
-            actuPrecioLabel.Size = new Size(43, 15);
-            actuPrecioLabel.TabIndex = 3;
-            actuPrecioLabel.Text = "Precio:";
+            lblPrice.AutoSize = true;
+            lblPrice.Location = new Point(82, 77);
+            lblPrice.Name = "lblPrice";
+            lblPrice.Size = new Size(43, 15);
+            lblPrice.TabIndex = 3;
+            lblPrice.Text = "Precio:";
             // 
-            // actualizarPrecioInput
+            // txtPrice
             // 
-            actualizarPrecioInput.Location = new Point(131, 74);
-            actualizarPrecioInput.Name = "actualizarPrecioInput";
-            actualizarPrecioInput.Size = new Size(202, 23);
-            actualizarPrecioInput.TabIndex = 4;
+            txtPrice.Location = new Point(131, 74);
+            txtPrice.Name = "txtPrice";
+            txtPrice.Size = new Size(202, 23);
+            txtPrice.TabIndex = 4;
             // 
-            // actuCantInventarioLabel
+            // lblAmount
             // 
-            actuCantInventarioLabel.AutoSize = true;
-            actuCantInventarioLabel.Location = new Point(11, 106);
-            actuCantInventarioLabel.Name = "actuCantInventarioLabel";
-            actuCantInventarioLabel.Size = new Size(114, 15);
-            actuCantInventarioLabel.TabIndex = 5;
-            actuCantInventarioLabel.Text = "Cantidad inventario:";
+            lblAmount.AutoSize = true;
+            lblAmount.Location = new Point(11, 106);
+            lblAmount.Name = "lblAmount";
+            lblAmount.Size = new Size(114, 15);
+            lblAmount.TabIndex = 5;
+            lblAmount.Text = "Cantidad inventario:";
             // 
-            // actualizarCantidadInventarioInput
+            // txtAmount
             // 
-            actualizarCantidadInventarioInput.Location = new Point(131, 103);
-            actualizarCantidadInventarioInput.Name = "actualizarCantidadInventarioInput";
-            actualizarCantidadInventarioInput.Size = new Size(202, 23);
-            actualizarCantidadInventarioInput.TabIndex = 6;
+            txtAmount.Location = new Point(131, 103);
+            txtAmount.Name = "txtAmount";
+            txtAmount.Size = new Size(202, 23);
+            txtAmount.TabIndex = 6;
             // 
-            // actuCategoLabel
+            // lblCategory
             // 
-            actuCategoLabel.AutoSize = true;
-            actuCategoLabel.Location = new Point(64, 140);
-            actuCategoLabel.Name = "actuCategoLabel";
-            actuCategoLabel.Size = new Size(61, 15);
-            actuCategoLabel.TabIndex = 7;
-            actuCategoLabel.Text = "Categoría:";
+            lblCategory.AutoSize = true;
+            lblCategory.Location = new Point(64, 140);
+            lblCategory.Name = "lblCategory";
+            lblCategory.Size = new Size(61, 15);
+            lblCategory.TabIndex = 7;
+            lblCategory.Text = "Categoría:";
             // 
-            // actuCategoComboBox
+            // cbCategory
             // 
-            actuCategoComboBox.FormattingEnabled = true;
-            actuCategoComboBox.Items.AddRange(new object[] { "Alimento", "Limpieza", "Hogar", "Mascotas", "Oficina" });
-            actuCategoComboBox.Location = new Point(131, 137);
-            actuCategoComboBox.Name = "actuCategoComboBox";
-            actuCategoComboBox.Size = new Size(202, 23);
-            actuCategoComboBox.TabIndex = 8;
-            actuCategoComboBox.SelectedIndexChanged += actuCategoComboBox_SelectedIndexChanged;
+            cbCategory.FormattingEnabled = true;
+            cbCategory.Items.AddRange(new object[] { "Alimento", "Limpieza", "Hogar", "Mascotas", "Oficina" });
+            cbCategory.Location = new Point(131, 137);
+            cbCategory.Name = "cbCategory";
+            cbCategory.Size = new Size(202, 23);
+            cbCategory.TabIndex = 8;
+            cbCategory.SelectedIndexChanged += cbCategory_SelectedIndexChanged;
             // 
-            // actuBodeLabel
+            // lblStorage
             // 
-            actuBodeLabel.AutoSize = true;
-            actuBodeLabel.Location = new Point(75, 175);
-            actuBodeLabel.Name = "actuBodeLabel";
-            actuBodeLabel.Size = new Size(50, 15);
-            actuBodeLabel.TabIndex = 9;
-            actuBodeLabel.Text = "Bodega:";
+            lblStorage.AutoSize = true;
+            lblStorage.Location = new Point(75, 175);
+            lblStorage.Name = "lblStorage";
+            lblStorage.Size = new Size(50, 15);
+            lblStorage.TabIndex = 9;
+            lblStorage.Text = "Bodega:";
             // 
-            // actuBodegaComboBox
+            // cbStorage
             // 
-            actuBodegaComboBox.FormattingEnabled = true;
-            actuBodegaComboBox.Location = new Point(131, 167);
-            actuBodegaComboBox.Name = "actuBodegaComboBox";
-            actuBodegaComboBox.Size = new Size(202, 23);
-            actuBodegaComboBox.TabIndex = 10;
-            actuBodegaComboBox.SelectedIndexChanged += actuBodegaComboBox_SelectedIndexChanged;
+            cbStorage.FormattingEnabled = true;
+            cbStorage.Location = new Point(131, 167);
+            cbStorage.Name = "cbStorage";
+            cbStorage.Size = new Size(202, 23);
+            cbStorage.TabIndex = 10;
+            cbStorage.SelectedIndexChanged += cbStorage_SelectedIndexChanged;
             // 
-            // button1
+            // btnClose
             // 
-            button1.Location = new Point(258, 217);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 11;
-            button1.Text = "Salir";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnClose.Location = new Point(232, 217);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(75, 23);
+            btnClose.TabIndex = 11;
+            btnClose.Text = "Salir";
+            btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += btnCancel_Click;
             // 
-            // ActualizarArticulo
+            // frmUpdateArticle
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(412, 302);
-            Controls.Add(button1);
-            Controls.Add(actuBodegaComboBox);
-            Controls.Add(actuBodeLabel);
-            Controls.Add(actuCategoComboBox);
-            Controls.Add(actuCategoLabel);
-            Controls.Add(actualizarCantidadInventarioInput);
-            Controls.Add(actuCantInventarioLabel);
-            Controls.Add(actualizarPrecioInput);
-            Controls.Add(actuPrecioLabel);
-            Controls.Add(actualizarNomInput);
-            Controls.Add(actuNombreLabel);
-            Controls.Add(actualizarBtn);
-            Name = "ActualizarArticulo";
+            Controls.Add(btnClose);
+            Controls.Add(cbStorage);
+            Controls.Add(lblStorage);
+            Controls.Add(cbCategory);
+            Controls.Add(lblCategory);
+            Controls.Add(txtAmount);
+            Controls.Add(lblAmount);
+            Controls.Add(txtPrice);
+            Controls.Add(lblPrice);
+            Controls.Add(txtName);
+            Controls.Add(lblName);
+            Controls.Add(btnUpdate);
+            Name = "frmUpdateArticle";
             Text = "ActualizarArticulo";
-            Load += ActualizarArticulo_Load;
+            Load += frmUpdateArticle_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button actualizarBtn;
-        private Label actuNombreLabel;
-        private TextBox actualizarNomInput;
-        private Label actuPrecioLabel;
-        private TextBox actualizarPrecioInput;
-        private Label actuCantInventarioLabel;
-        private TextBox actualizarCantidadInventarioInput;
-        private Label actuCategoLabel;
-        private ComboBox actuCategoComboBox;
-        private Label actuBodeLabel;
-        private ComboBox actuBodegaComboBox;
-        private Button button1;
+        private Button btnUpdate;
+        private Label lblName;
+        private TextBox txtName;
+        private Label lblPrice;
+        private TextBox txtPrice;
+        private Label lblAmount;
+        private TextBox txtAmount;
+        private Label lblCategory;
+        private ComboBox cbCategory;
+        private Label lblStorage;
+        private ComboBox cbStorage;
+        private Button btnClose;
     }
 }

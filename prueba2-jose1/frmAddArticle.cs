@@ -1,180 +1,138 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Numerics;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.DataFormats;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
-namespace prueba2_jose1
+﻿namespace prueba2_jose1
 {
     public partial class frmAddArticle : Form
     {
-        public string categoriaSelec;
-        public string bodegaSelec;
-        public frmAddArticle(List<Storage> bode)
-        {
+        public string CategorySelected;
+        public string StorageSelected;
 
+        public frmAddArticle(List<Storage> storages)
+        {
             InitializeComponent();
-            cargarDatosCombo(bode);
-
-
-
+            ChargeDataCB(storages);
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void cbCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            CategorySelected = cbCategory.SelectedItem as string;
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void frmAddArticle_Load(object sender, EventArgs e)
         {
-            categoriaSelec = cbCateory.SelectedItem as string;
-        }
-
-        private void agregarArticuloForm_Load(object sender, EventArgs e)
-        {
-            if (cbCateory.Items.Count > 0)
+            if (cbCategory.Items.Count > 0)
             {
-                cbCateory.SelectedIndex = 0;  // Selecciona el primer ítem
+                cbCategory.SelectedIndex = 0;  // Select the first item
             }
-            if (cbStore.Items.Count > 0)
+            if (cbStorage.Items.Count > 0)
             {
-                cbStore.SelectedIndex = 0;  // Selecciona el primer ítem
+                cbStorage.SelectedIndex = 0;  // Select the first item
             }
         }
 
-        private void cancelarGuardado_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void guardarBtn_Click(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
             try
             {
-                string nombreA = txtName.Text;
-                double precioA = double.Parse(txtPrice.Text);
-                int cantidadA = int.Parse(txtAmount.Text);
-                string categoriaA = categoriaSelec;
-                string bodegaA = bodegaSelec;
-                int minA = int.Parse(txtMinAmount.Text);
-                int maxA = int.Parse(txtMaxAmount.Text);
-                if (!minMaxValidation(minA, maxA))
+                string nameA = txtName.Text;
+                double priceA = double.Parse(txtPrice.Text);
+                int amountA = int.Parse(txtAmount.Text);
+                string categoryA = CategorySelected;
+                string storageA = StorageSelected;
+                int minAmountA = int.Parse(txtMinAmount.Text);
+                int maxAmountA = int.Parse(txtMaxAmount.Text);
+
+                if (!MinMaxValidation(minAmountA, maxAmountA))
                 {
-                    return; // Si la validación falla, no continúa
+                    return; // If validation fails, do not continue
                 }
 
-                if (!amountValidation(minA, maxA, cantidadA))
+                if (!AmountValidation(minAmountA, maxAmountA, amountA))
                 {
                     return;
-                };
-
+                }
 
                 frmMain frm = Owner as frmMain;
 
-
-
-                var result = MessageBox.Show("¿Desea guardar el artículo?", "Confirmación", MessageBoxButtons.YesNo);
+                var result = MessageBox.Show("Do you want to save the article?", "Confirmation", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    frm.AddArticle(nombreA, precioA, cantidadA, categoriaA, bodegaA, minA, maxA);
-
-
+                    frm.AddArticle(nameA, priceA, amountA, categoryA, storageA, minAmountA, maxAmountA);
                 }
-
             }
             catch
             {
-                MessageBox.Show("Ha Ocurrido un error");
+                MessageBox.Show("An error has occurred");
             }
-
-
         }
 
-        private void bodegaComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbStorage_SelectedIndexChanged(object sender, EventArgs e)
         {
-            bodegaSelec = cbStore.SelectedItem as string;
+            StorageSelected = cbStorage.SelectedItem as string;
         }
-        private void cargarDatosCombo(List<Storage> bode1)
-        {
 
-            cbStore.DataContext = null;
-            for (int i = 0; i < bode1.Count; i++)
+        private void ChargeDataCB(List<Storage> storageList)
+        {
+            cbStorage.DataSource = null;
+            foreach (var storage in storageList)
             {
-                var bodega2 = bode1[i];
-                cbStore.Items.Add(bodega2.StorageName);
+                cbStorage.Items.Add(storage.StorageName);
             }
-
-
-
         }
 
-        private void agregarArtiInput_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtName_KeyPress(object sender, KeyPressEventArgs e)
         {
-
             if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
-
-
         }
 
         private void txtPrice_KeyPress(object sender, KeyPressEventArgs e)
         {
-
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
         }
 
-        private bool amountValidation(int amountMin, int amountMax, int amount)
+        private bool AmountValidation(int minAmount, int maxAmount, int amount)
         {
-            if (amount < amountMin)
+            if (amount < minAmount)
             {
-                MessageBox.Show("la cantidad es menor al minimo establecido", "Aviso");
+                MessageBox.Show("The amount is less than the minimum established", "Warning");
                 return false;
             }
-            else if (amount > amountMax)
+            else if (amount > maxAmount)
             {
-                MessageBox.Show("la cantidad es menor al máximo estabecido", "Aviso");
+                MessageBox.Show("The amount exceeds the maximum established", "Warning");
                 return false;
             }
-               return true;
-        }
-        private bool minMaxValidation(int amountMin, int amountMax)
-        {
-            if (amountMin > amountMax)
-            {
-                MessageBox.Show("El monto mínimo no puede ser mayor al máximo", "Aviso");
-                return false;
-            }
-            if (amountMin < 0)
-            {
-                MessageBox.Show("El monto mínimo no puede ser negativo", "Aviso");
-                return false;
-            }
-            if (amountMax < 1)
-            {
-                MessageBox.Show("El monto máximo no puede ser cero o  negativo", "Aviso");
-                return false;
-            }
-
-            return true; // Si todas las validaciones pasan, retorna true
+            return true;
         }
 
-
-
-
-
+        private bool MinMaxValidation(int minAmount, int maxAmount)
+        {
+            if (minAmount > maxAmount)
+            {
+                MessageBox.Show("The minimum amount cannot be greater than the maximum", "Warning");
+                return false;
+            }
+            if (minAmount < 0)
+            {
+                MessageBox.Show("The minimum amount cannot be negative", "Warning");
+                return false;
+            }
+            if (maxAmount < 1)
+            {
+                MessageBox.Show("The maximum amount cannot be zero or negative", "Warning");
+                return false;
+            }
+            return true; // If all validations pass, return true
+        }
     }
-    
 }
+

@@ -36,9 +36,9 @@
             txtAmount = new TextBox();
             lblAmount = new Label();
             lblCategory = new Label();
-            cbCateory = new ComboBox();
+            cbCategory = new ComboBox();
             lblStore = new Label();
-            cbStore = new ComboBox();
+            cbStorage = new ComboBox();
             lblMinAmount = new Label();
             txtMinAmount = new TextBox();
             lblMaxAmount = new Label();
@@ -77,32 +77,31 @@
             // 
             resources.ApplyResources(lblAmount, "lblAmount");
             lblAmount.Name = "lblAmount";
-            lblAmount.Click += label1_Click;
             // 
             // lblCategory
             // 
             resources.ApplyResources(lblCategory, "lblCategory");
             lblCategory.Name = "lblCategory";
             // 
-            // cbCateory
+            // cbCategory
             // 
-            resources.ApplyResources(cbCateory, "cbCateory");
-            cbCateory.FormattingEnabled = true;
-            cbCateory.Items.AddRange(new object[] { resources.GetString("cbCateory.Items"), resources.GetString("cbCateory.Items1"), resources.GetString("cbCateory.Items2"), resources.GetString("cbCateory.Items3"), resources.GetString("cbCateory.Items4") });
-            cbCateory.Name = "cbCateory";
-            cbCateory.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            resources.ApplyResources(cbCategory, "cbCategory");
+            cbCategory.FormattingEnabled = true;
+            cbCategory.Items.AddRange(new object[] { resources.GetString("cbCategory.Items"), resources.GetString("cbCategory.Items1"), resources.GetString("cbCategory.Items2"), resources.GetString("cbCategory.Items3"), resources.GetString("cbCategory.Items4") });
+            cbCategory.Name = "cbCategory";
+            cbCategory.SelectedIndexChanged += cbCategory_SelectedIndexChanged;
             // 
             // lblStore
             // 
             resources.ApplyResources(lblStore, "lblStore");
             lblStore.Name = "lblStore";
             // 
-            // cbStore
+            // cbStorage
             // 
-            resources.ApplyResources(cbStore, "cbStore");
-            cbStore.FormattingEnabled = true;
-            cbStore.Name = "cbStore";
-            cbStore.SelectedIndexChanged += bodegaComboBox_SelectedIndexChanged;
+            resources.ApplyResources(cbStorage, "cbStorage");
+            cbStorage.FormattingEnabled = true;
+            cbStorage.Name = "cbStorage";
+            cbStorage.SelectedIndexChanged += cbStorage_SelectedIndexChanged;
             // 
             // lblMinAmount
             // 
@@ -129,16 +128,16 @@
             resources.ApplyResources(btnSave, "btnSave");
             btnSave.Name = "btnSave";
             btnSave.UseVisualStyleBackColor = true;
-            btnSave.Click += guardarBtn_Click;
+            btnSave.Click += btnSave_Click;
             // 
             // btnCancel
             // 
             resources.ApplyResources(btnCancel, "btnCancel");
             btnCancel.Name = "btnCancel";
             btnCancel.UseVisualStyleBackColor = true;
-            btnCancel.Click += cancelarGuardado_Click;
+            btnCancel.Click += btnCancel_Click;
             // 
-            // agregarArticuloForm
+            // frmAddArticle
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
@@ -148,9 +147,9 @@
             Controls.Add(lblMaxAmount);
             Controls.Add(txtMinAmount);
             Controls.Add(lblMinAmount);
-            Controls.Add(cbStore);
+            Controls.Add(cbStorage);
             Controls.Add(lblStore);
-            Controls.Add(cbCateory);
+            Controls.Add(cbCategory);
             Controls.Add(lblCategory);
             Controls.Add(txtAmount);
             Controls.Add(lblAmount);
@@ -158,8 +157,8 @@
             Controls.Add(lblPrice);
             Controls.Add(txtName);
             Controls.Add(lblName);
-            Name = "agregarArticuloForm";
-            Load += agregarArticuloForm_Load;
+            Name = "frmAddArticle";
+            Load += frmAddArticle_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -173,9 +172,9 @@
         private TextBox txtAmount;
         private Label lblAmount;
         private Label lblCategory;
-        private ComboBox cbCateory;
+        private ComboBox cbCategory;
         private Label lblStore;
-        private ComboBox cbStore;
+        private ComboBox cbStorage;
         private Label lblMinAmount;
         private TextBox txtMinAmount;
         private Label lblMaxAmount;

@@ -117,598 +117,223 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cbCateory.Items3" xml:space="preserve">
+    <value>Mascotas</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblMaxAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 239</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;categComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblMaxAmount.Name" xml:space="preserve">
-    <value>lblMaxAmount</value>
-  </data>
-  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 28</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;bodegaLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMinAmount.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;txtAmount.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblStore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 192</value>
-  </data>
-  <data name="cancelarGuardado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 302</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 25</value>
-  </data>
-  <data name="cartegComboBox.Items2" xml:space="preserve">
-    <value>Hogar</value>
-  </data>
   <data name="categLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 152</value>
-  </data>
-  <data name="lblCategory.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="minInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="bodegaComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 189</value>
-  </data>
-  <data name="categLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="bodegaLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 192</value>
-  </data>
-  <data name="cbCateory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 152</value>
-  </data>
-  <data name="agregarArtiInput.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 152</value>
-  </data>
-  <data name="&gt;&gt;lblStore.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 302</value>
-  </data>
-  <data name="txtMinAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;cancelarGuardado.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtMaxAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 236</value>
-  </data>
-  <data name="guardarBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="cantidadLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 108</value>
-  </data>
-  <data name="&gt;&gt;categLabel.Name" xml:space="preserve">
-    <value>categLabel</value>
-  </data>
-  <data name="&gt;&gt;cantidadLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="nombreArtLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Limpieza</value>
-  </data>
-  <data name="&gt;&gt;lblMaxAmount.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;agregarArtiInput.Name" xml:space="preserve">
-    <value>agregarArtiInput</value>
-  </data>
-  <data name="&gt;&gt;lblAmount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtPrice.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;cantidadInventario.Name" xml:space="preserve">
-    <value>cantidadInventario</value>
-  </data>
-  <data name="&gt;&gt;txtAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;categLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;guardarBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtMinAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <data name="&gt;&gt;cantidadInventario.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtAmount.Name" xml:space="preserve">
-    <value>txtAmount</value>
-  </data>
-  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
-    <value>Mascotas</value>
-  </data>
-  <data name="&gt;&gt;numMinLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bodegaComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bodegaComboBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cancelarGuardado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;maxInput.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblPrice.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;numMinLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;cbCateory.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="agregarArtiInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 25</value>
-  </data>
-  <data name="&gt;&gt;guardarBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblMinAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;precioInput.Name" xml:space="preserve">
-    <value>precioInput</value>
-  </data>
-  <data name="&gt;&gt;lblMinAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;precioInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="categComboBox.Items" xml:space="preserve">
-    <value>Alimento</value>
-  </data>
-  <data name="&gt;&gt;numMaxLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;cantidadLabel.Name" xml:space="preserve">
-    <value>cantidadLabel</value>
-  </data>
-  <data name="&gt;&gt;lblCategory.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;precioInput.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;categComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="txtMaxAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="cbStore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 189</value>
-  </data>
-  <data name="&gt;&gt;nombreArtLabel.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="cantidadLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="cbCateory.Items2" xml:space="preserve">
-    <value>Hogar</value>
-  </data>
-  <data name="categComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="cartegComboBox.Items1" xml:space="preserve">
-    <value>Limpieza</value>
-  </data>
-  <data name="&gt;&gt;numMaxLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtAmount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;numMaxLabel.Name" xml:space="preserve">
-    <value>numMaxLabel</value>
-  </data>
-  <data name="&gt;&gt;agregarArtiInput.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="numMaxLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 239</value>
-  </data>
-  <data name="&gt;&gt;bodegaLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblMaxAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="txtAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 105</value>
-  </data>
-  <data name="lblAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;precioLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="precioLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblMaxAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="categComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 152</value>
-  </data>
-  <data name="precioInput.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;guardarBtn.Name" xml:space="preserve">
-    <value>guardarBtn</value>
-  </data>
-  <data name="&gt;&gt;lblMinAmount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="cartegComboBox.Items3" xml:space="preserve">
-    <value>Mascotas</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;txtMaxAmount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbStore.Name" xml:space="preserve">
-    <value>cbStore</value>
-  </data>
-  <data name="numMinLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 239</value>
-  </data>
-  <data name="&gt;&gt;precioLabel.Name" xml:space="preserve">
-    <value>precioLabel</value>
-  </data>
-  <data name="&gt;&gt;minInput.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="numMaxLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;lblMaxAmount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="cancelarGuardado.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;numMinLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtMinAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 236</value>
-  </data>
-  <data name="&gt;&gt;precioLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cbCateory.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
-    <value>Hogar</value>
-  </data>
-  <data name="cartegComboBox.Items4" xml:space="preserve">
-    <value>Oficina</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="txtMaxAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;minInput.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cancelarGuardado.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 108</value>
-  </data>
-  <data name="&gt;&gt;cartegComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cartegComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;minInput.Name" xml:space="preserve">
-    <value>minInput</value>
-  </data>
-  <data name="cantidadInventario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 105</value>
-  </data>
-  <data name="categComboBox.Items2" xml:space="preserve">
-    <value>Hogar</value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Alimento</value>
-  </data>
-  <data name="&gt;&gt;txtMaxAmount.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cbCateory.Items" xml:space="preserve">
-    <value>Alimento</value>
   </data>
   <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="bodegaComboBox.TabIndex" type="System.Int32, mscorlib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="maxInput.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblCategory.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbStorage.Name" xml:space="preserve">
+    <value>cbStorage</value>
+  </data>
+  <data name="&gt;&gt;cartegComboBox.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 105</value>
+  </data>
+  <data name="minInput.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;agregarArtiInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 152</value>
+  </data>
+  <data name="cancelarGuardado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;cbCategory.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cbStorage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblStore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txtPrice.Location" type="System.Drawing.Point, System.Drawing">
     <value>222, 64</value>
   </data>
-  <data name="&gt;&gt;agregarArtiInput.Type" xml:space="preserve">
+  <data name="cbCateory.Items2" xml:space="preserve">
+    <value>Hogar</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="bodegaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cantidadInventario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 236</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;maxInput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;categComboBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtMaxAmount.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cantidadInventario.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;precioLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;cantidadLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lblStore.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPrice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="categComboBox.Items1" xml:space="preserve">
-    <value>Limpieza</value>
-  </data>
-  <data name="&gt;&gt;bodegaComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="cbCateory.Items1" xml:space="preserve">
-    <value>Limpieza</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
-    <value>txtName</value>
-  </data>
-  <data name="&gt;&gt;cancelarGuardado.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;categComboBox.Name" xml:space="preserve">
-    <value>categComboBox</value>
-  </data>
-  <data name="&gt;&gt;lblStore.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;cbCateory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPrice.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>agregarArticuloForm</value>
-  </data>
-  <data name="maxInput.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
-  </data>
-  <data name="txtAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="minInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 236</value>
   </data>
-  <data name="&gt;&gt;numMinLabel.Name" xml:space="preserve">
-    <value>numMinLabel</value>
-  </data>
-  <data name="lblPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 72</value>
-  </data>
-  <data name="&gt;&gt;bodegaLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="cbCateory.Items4" xml:space="preserve">
-    <value>Oficina</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
-    <value>btnCancel</value>
-  </data>
-  <data name="&gt;&gt;txtPrice.Parent" xml:space="preserve">
+  <data name="&gt;&gt;guardarBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="cantidadInventario.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblAmount.Name" xml:space="preserve">
-    <value>lblAmount</value>
-  </data>
-  <data name="&gt;&gt;cantidadLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>211, 302</value>
-  </data>
-  <data name="&gt;&gt;maxInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cancelarGuardado.Name" xml:space="preserve">
-    <value>cancelarGuardado</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>agregarArticuloForm</value>
-  </data>
-  <data name="precioInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 64</value>
-  </data>
-  <data name="&gt;&gt;txtMinAmount.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="bodegaLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="lblAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 108</value>
   </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;bodegaComboBox.Name" xml:space="preserve">
+    <value>bodegaComboBox</value>
   </data>
-  <data name="&gt;&gt;minInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtMaxAmount.Name" xml:space="preserve">
+    <value>txtMaxAmount</value>
   </data>
-  <data name="&gt;&gt;lblPrice.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;guardarBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 236</value>
-  </data>
-  <data name="cbCateory.Items3" xml:space="preserve">
-    <value>Mascotas</value>
-  </data>
-  <data name="&gt;&gt;txtMinAmount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="categComboBox.Items3" xml:space="preserve">
-    <value>Mascotas</value>
-  </data>
-  <data name="maxInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 236</value>
-  </data>
-  <data name="minInput.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;cantidadInventario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblMinAmount.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="numMinLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>118, 239</value>
   </data>
-  <data name="cartegComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;categComboBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;txtMaxAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="categComboBox.Items4" xml:space="preserve">
-    <value>Oficina</value>
-  </data>
-  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
-    <value>lblName</value>
-  </data>
-  <data name="&gt;&gt;txtPrice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;agregarArtiInput.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;nombreArtLabel.Name" xml:space="preserve">
     <value>nombreArtLabel</value>
   </data>
-  <data name="cartegComboBox.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="&gt;&gt;txtMinAmount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblMinAmount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;categComboBox.Name" xml:space="preserve">
+    <value>categComboBox</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 302</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cancelarGuardado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 302</value>
+  </data>
+  <data name="precioLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;categComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="categComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="categComboBox.Items3" xml:space="preserve">
+    <value>Mascotas</value>
+  </data>
+  <data name="&gt;&gt;categComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bodegaLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numMaxLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="bodegaComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 189</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="cbCategory.Location" type="System.Drawing.Point, System.Drawing">
     <value>222, 152</value>
+  </data>
+  <data name="cantidadLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 108</value>
+  </data>
+  <data name="&gt;&gt;lblMinAmount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;bodegaLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 192</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;cbStore.Name" xml:space="preserve">
+    <value>cbStore</value>
+  </data>
+  <data name="cartegComboBox.Items1" xml:space="preserve">
+    <value>Limpieza</value>
+  </data>
+  <data name="&gt;&gt;lblCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cartegComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>Hogar</value>
+  </data>
+  <data name="&gt;&gt;cbStorage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="guardarBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;maxInput.Name" xml:space="preserve">
-    <value>maxInput</value>
+  <data name="&gt;&gt;txtMaxAmount.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;cartegComboBox.ZOrder" xml:space="preserve">
     <value>8</value>
@@ -716,163 +341,589 @@
   <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;cbCateory.Name" xml:space="preserve">
-    <value>cbCateory</value>
-  </data>
-  <data name="cartegComboBox.Items" xml:space="preserve">
-    <value>Alimento</value>
-  </data>
-  <data name="&gt;&gt;txtPrice.Name" xml:space="preserve">
-    <value>txtPrice</value>
-  </data>
-  <data name="&gt;&gt;bodegaLabel.Name" xml:space="preserve">
-    <value>bodegaLabel</value>
-  </data>
-  <data name="&gt;&gt;txtMaxAmount.Name" xml:space="preserve">
-    <value>txtMaxAmount</value>
-  </data>
-  <data name="numMinLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtMinAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cartegComboBox.Name" xml:space="preserve">
-    <value>cartegComboBox</value>
-  </data>
-  <data name="maxInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;cbStore.Type" xml:space="preserve">
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;minInput.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 152</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
   </data>
-  <data name="&gt;&gt;cbStore.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="numMaxLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 239</value>
   </data>
-  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="cantidadInventario.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;lblStore.Name" xml:space="preserve">
-    <value>lblStore</value>
-  </data>
-  <data name="&gt;&gt;lblCategory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;maxInput.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
   </data>
   <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
     <value>btnSave</value>
   </data>
-  <data name="&gt;&gt;lblMinAmount.Name" xml:space="preserve">
-    <value>lblMinAmount</value>
-  </data>
-  <data name="nombreArtLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 28</value>
-  </data>
-  <data name="&gt;&gt;nombreArtLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAmount.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="comboBox1.Items4" xml:space="preserve">
+  <data name="categComboBox.Items4" xml:space="preserve">
     <value>Oficina</value>
   </data>
-  <data name="&gt;&gt;numMaxLabel.Parent" xml:space="preserve">
+  <data name="cbCateory.Items1" xml:space="preserve">
+    <value>Limpieza</value>
+  </data>
+  <data name="&gt;&gt;bodegaComboBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="cbStore.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;lblAmount.Name" xml:space="preserve">
+    <value>lblAmount</value>
   </data>
-  <data name="&gt;&gt;categLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cantidadLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;categLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="guardarBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>211, 302</value>
-  </data>
-  <data name="lblStore.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;cbCateory.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="precioLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 72</value>
-  </data>
-  <data name="&gt;&gt;lblPrice.Name" xml:space="preserve">
-    <value>lblPrice</value>
-  </data>
-  <data name="&gt;&gt;precioInput.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;lblMaxAmount.Name" xml:space="preserve">
+    <value>lblMaxAmount</value>
   </data>
   <data name="&gt;&gt;nombreArtLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtMinAmount.Name" xml:space="preserve">
-    <value>txtMinAmount</value>
+  <data name="cbCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCategory.Parent" xml:space="preserve">
+  <data name="&gt;&gt;maxInput.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCategory.Name" xml:space="preserve">
-    <value>lblCategory</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 105</value>
-  </data>
-  <data name="&gt;&gt;cbStore.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;lblPrice.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbCategory.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;agregarArtiInput.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;bodegaComboBox.Name" xml:space="preserve">
-    <value>bodegaComboBox</value>
+  <data name="&gt;&gt;minInput.Name" xml:space="preserve">
+    <value>minInput</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>en</value>
-  </metadata>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>agregarArticuloForm</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Name" xml:space="preserve">
+    <value>lblPrice</value>
+  </data>
+  <data name="&gt;&gt;precioInput.Name" xml:space="preserve">
+    <value>precioInput</value>
+  </data>
+  <data name="&gt;&gt;lblMinAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nombreArtLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 28</value>
+  </data>
+  <data name="&gt;&gt;precioInput.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="categComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 152</value>
+  </data>
+  <data name="maxInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 236</value>
+  </data>
+  <data name="&gt;&gt;cantidadLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;categLabel.Name" xml:space="preserve">
+    <value>categLabel</value>
+  </data>
+  <data name="&gt;&gt;bodegaLabel.Name" xml:space="preserve">
+    <value>bodegaLabel</value>
+  </data>
+  <data name="&gt;&gt;precioLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cartegComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 189</value>
+  </data>
+  <data name="&gt;&gt;categLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cantidadLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtMinAmount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblStore.Name" xml:space="preserve">
+    <value>lblStore</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;minInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMinAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="categComboBox.Items2" xml:space="preserve">
+    <value>Hogar</value>
+  </data>
+  <data name="cbStore.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cancelarGuardado.Name" xml:space="preserve">
+    <value>cancelarGuardado</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;minInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bodegaComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;precioLabel.Name" xml:space="preserve">
+    <value>precioLabel</value>
+  </data>
+  <data name="cbCategory.Items3" xml:space="preserve">
+    <value>Mascotas</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guardarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>Limpieza</value>
+  </data>
+  <data name="cartegComboBox.Items" xml:space="preserve">
+    <value>Alimento</value>
+  </data>
+  <data name="lblMaxAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtMinAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 236</value>
+  </data>
+  <data name="&gt;&gt;txtMaxAmount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCategory.Name" xml:space="preserve">
+    <value>cbCategory</value>
+  </data>
+  <data name="&gt;&gt;nombreArtLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bodegaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 192</value>
+  </data>
+  <data name="&gt;&gt;lblMaxAmount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cancelarGuardado.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbCategory.Items2" xml:space="preserve">
+    <value>Hogar</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cantidadLabel.Name" xml:space="preserve">
+    <value>cantidadLabel</value>
+  </data>
+  <data name="&gt;&gt;cbCateory.Name" xml:space="preserve">
+    <value>cbCateory</value>
+  </data>
+  <data name="lblCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="precioInput.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Name" xml:space="preserve">
+    <value>txtPrice</value>
+  </data>
+  <data name="&gt;&gt;nombreArtLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 302</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>Oficina</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;categLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbStore.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cbCateory.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;guardarBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cartegComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 152</value>
+  </data>
+  <data name="&gt;&gt;lblMaxAmount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numMinLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMinAmount.Name" xml:space="preserve">
+    <value>txtMinAmount</value>
+  </data>
+  <data name="&gt;&gt;lblMinAmount.Name" xml:space="preserve">
+    <value>lblMinAmount</value>
+  </data>
+  <data name="&gt;&gt;cantidadLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMaxAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCateory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;agregarArtiInput.Name" xml:space="preserve">
+    <value>agregarArtiInput</value>
+  </data>
+  <data name="&gt;&gt;precioInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMaxAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 236</value>
+  </data>
+  <data name="txtMaxAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;numMaxLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;precioInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numMinLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.Name" xml:space="preserve">
+    <value>txtAmount</value>
+  </data>
+  <data name="&gt;&gt;cancelarGuardado.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStore.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbCategory.Items1" xml:space="preserve">
+    <value>Limpieza</value>
+  </data>
+  <data name="&gt;&gt;bodegaComboBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblStore.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="guardarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 302</value>
+  </data>
+  <data name="&gt;&gt;cbStore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="categLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cancelarGuardado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numMinLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 189</value>
+  </data>
+  <data name="cartegComboBox.Items2" xml:space="preserve">
+    <value>Hogar</value>
+  </data>
+  <data name="&gt;&gt;lblStore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblCategory.Name" xml:space="preserve">
+    <value>lblCategory</value>
+  </data>
+  <data name="maxInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;categLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cantidadInventario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>Mascotas</value>
+  </data>
+  <data name="cbCateory.Items" xml:space="preserve">
+    <value>Alimento</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblCategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cartegComboBox.Items4" xml:space="preserve">
+    <value>Oficina</value>
+  </data>
+  <data name="lblPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 72</value>
+  </data>
+  <data name="cbCategory.Items" xml:space="preserve">
+    <value>Alimento</value>
+  </data>
+  <data name="cbCateory.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 105</value>
+  </data>
+  <data name="lblMinAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;guardarBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMinAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 239</value>
+  </data>
+  <data name="&gt;&gt;cancelarGuardado.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbStore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bodegaComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="categComboBox.Items1" xml:space="preserve">
+    <value>Limpieza</value>
+  </data>
+  <data name="&gt;&gt;maxInput.Name" xml:space="preserve">
+    <value>maxInput</value>
+  </data>
+  <data name="nombreArtLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtMinAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCateory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guardarBtn.Name" xml:space="preserve">
+    <value>guardarBtn</value>
+  </data>
+  <data name="txtMaxAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="numMinLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="agregarArtiInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 25</value>
+  </data>
+  <data name="lblAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>Alimento</value>
+  </data>
+  <data name="minInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;precioLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cantidadInventario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 105</value>
+  </data>
+  <data name="cbCateory.Items4" xml:space="preserve">
+    <value>Oficina</value>
+  </data>
+  <data name="&gt;&gt;numMaxLabel.Name" xml:space="preserve">
+    <value>numMaxLabel</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 152</value>
+  </data>
+  <data name="agregarArtiInput.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;maxInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bodegaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="categComboBox.Items" xml:space="preserve">
+    <value>Alimento</value>
+  </data>
+  <data name="cartegComboBox.Items3" xml:space="preserve">
+    <value>Mascotas</value>
+  </data>
+  <data name="precioInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 64</value>
+  </data>
+  <data name="cbCateory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 152</value>
+  </data>
+  <data name="&gt;&gt;numMaxLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAddArticle</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 28</value>
+  </data>
+  <data name="&gt;&gt;cantidadInventario.Name" xml:space="preserve">
+    <value>cantidadInventario</value>
+  </data>
+  <data name="txtMinAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblMaxAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 239</value>
+  </data>
+  <data name="&gt;&gt;cbStorage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbCategory.Items4" xml:space="preserve">
+    <value>Oficina</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;numMinLabel.Name" xml:space="preserve">
+    <value>numMinLabel</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 25</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numMaxLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cartegComboBox.Name" xml:space="preserve">
+    <value>cartegComboBox</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="precioLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 72</value>
+  </data>
+  <data name="&gt;&gt;precioLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en</value>
   </metadata>
 </root>

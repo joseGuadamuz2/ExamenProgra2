@@ -171,7 +171,7 @@
   <data name="lblCategory.Text" xml:space="preserve">
     <value>Categoría:</value>
   </data>
-  <data name="cbCateory.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cbCategory.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 23</value>
   </data>
   <data name="lblStore.AutoSize" type="System.Boolean, mscorlib">
@@ -183,7 +183,7 @@
   <data name="lblStore.Text" xml:space="preserve">
     <value>Bodega:</value>
   </data>
-  <data name="cbStore.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cbStorage.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 23</value>
   </data>
   <data name="lblMinAmount.AutoSize" type="System.Boolean, mscorlib">
