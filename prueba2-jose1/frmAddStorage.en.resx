@@ -118,38 +118,86 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="nomBodeLable.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="nomBodeLable.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 83</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 15</value>
   </data>
-  <data name="nomBodeLable.Text" xml:space="preserve">
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
     <value>Nombre:</value>
   </data>
-  <data name="nombreBodeInput.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 80</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 23</value>
   </data>
-  <data name="ubicacionLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblUbication.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="ubicacionLabel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblUbication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 128</value>
+  </data>
+  <data name="lblUbication.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 15</value>
   </data>
-  <data name="ubicacionLabel.Text" xml:space="preserve">
+  <data name="lblUbication.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblUbication.Text" xml:space="preserve">
     <value>Ubicación:</value>
   </data>
-  <data name="BodegaBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cbStorage.Items" xml:space="preserve">
+    <value>INTERNA</value>
+  </data>
+  <data name="cbStorage.Items1" xml:space="preserve">
+    <value>EXTERNA</value>
+  </data>
+  <data name="cbStorage.Items2" xml:space="preserve">
+    <value>PASILLO</value>
+  </data>
+  <data name="cbStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 125</value>
+  </data>
+  <data name="cbStorage.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 23</value>
   </data>
-  <data name="guardaBodeBtn.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cbStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 190</value>
   </data>
-  <data name="guardaBodeBtn.Text" xml:space="preserve">
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
     <value>Guardar</value>
   </data>
-  <data name="salirBtn.Text" xml:space="preserve">
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 190</value>
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnExit.Text" xml:space="preserve">
     <value>Salir</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">

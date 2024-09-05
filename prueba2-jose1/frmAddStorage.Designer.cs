@@ -29,73 +29,73 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddStorage));
-            nomBodeLable = new Label();
-            nombreBodeInput = new TextBox();
-            ubicacionLabel = new Label();
-            BodegaBox1 = new ComboBox();
-            guardaBodeBtn = new Button();
-            salirBtn = new Button();
+            lblName = new Label();
+            txtName = new TextBox();
+            lblUbication = new Label();
+            cbStorage = new ComboBox();
+            btnSave = new Button();
+            btnExit = new Button();
             SuspendLayout();
             // 
-            // nomBodeLable
+            // lblName
             // 
-            resources.ApplyResources(nomBodeLable, "nomBodeLable");
-            nomBodeLable.Name = "nomBodeLable";
+            resources.ApplyResources(lblName, "lblName");
+            lblName.Name = "lblName";
             // 
-            // nombreBodeInput
+            // txtName
             // 
-            resources.ApplyResources(nombreBodeInput, "nombreBodeInput");
-            nombreBodeInput.Name = "nombreBodeInput";
+            resources.ApplyResources(txtName, "txtName");
+            txtName.Name = "txtName";
             // 
-            // ubicacionLabel
+            // lblUbication
             // 
-            resources.ApplyResources(ubicacionLabel, "ubicacionLabel");
-            ubicacionLabel.Name = "ubicacionLabel";
+            resources.ApplyResources(lblUbication, "lblUbication");
+            lblUbication.Name = "lblUbication";
             // 
-            // BodegaBox1
+            // cbStorage
             // 
-            resources.ApplyResources(BodegaBox1, "BodegaBox1");
-            BodegaBox1.FormattingEnabled = true;
-            BodegaBox1.Items.AddRange(new object[] { resources.GetString("BodegaBox1.Items"), resources.GetString("BodegaBox1.Items1"), resources.GetString("BodegaBox1.Items2") });
-            BodegaBox1.Name = "BodegaBox1";
-            BodegaBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            resources.ApplyResources(cbStorage, "cbStorage");
+            cbStorage.FormattingEnabled = true;
+            cbStorage.Items.AddRange(new object[] { resources.GetString("cbStorage.Items"), resources.GetString("cbStorage.Items1"), resources.GetString("cbStorage.Items2") });
+            cbStorage.Name = "cbStorage";
+            cbStorage.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
-            // guardaBodeBtn
+            // btnSave
             // 
-            resources.ApplyResources(guardaBodeBtn, "guardaBodeBtn");
-            guardaBodeBtn.Name = "guardaBodeBtn";
-            guardaBodeBtn.UseVisualStyleBackColor = true;
-            guardaBodeBtn.Click += guardaBodeBtn_Click;
+            resources.ApplyResources(btnSave, "btnSave");
+            btnSave.Name = "btnSave";
+            btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
-            // salirBtn
+            // btnExit
             // 
-            resources.ApplyResources(salirBtn, "salirBtn");
-            salirBtn.Name = "salirBtn";
-            salirBtn.UseVisualStyleBackColor = true;
-            salirBtn.Click += salirBtn_Click;
+            resources.ApplyResources(btnExit, "btnExit");
+            btnExit.Name = "btnExit";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += salirBtn_Click;
             // 
-            // agregarBodegas
+            // frmAddStorage
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(salirBtn);
-            Controls.Add(guardaBodeBtn);
-            Controls.Add(BodegaBox1);
-            Controls.Add(ubicacionLabel);
-            Controls.Add(nombreBodeInput);
-            Controls.Add(nomBodeLable);
-            Name = "agregarBodegas";
+            Controls.Add(btnExit);
+            Controls.Add(btnSave);
+            Controls.Add(cbStorage);
+            Controls.Add(lblUbication);
+            Controls.Add(txtName);
+            Controls.Add(lblName);
+            Name = "frmAddStorage";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label nomBodeLable;
-        private TextBox nombreBodeInput;
-        private Label ubicacionLabel;
-        private ComboBox BodegaBox1;
-        private Button guardaBodeBtn;
-        private Button salirBtn;
+        private Label lblName;
+        private TextBox txtName;
+        private Label lblUbication;
+        private ComboBox cbStorage;
+        private Button btnSave;
+        private Button btnExit;
     }
 }
