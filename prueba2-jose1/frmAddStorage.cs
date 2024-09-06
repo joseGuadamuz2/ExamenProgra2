@@ -7,43 +7,56 @@ namespace prueba2_jose1
 {
     public partial class frmAddStorage : Form
     {
+        #region Variable
+
+        // Name of the storage
         public string storageName;
+        // Location of the storage
         public string storageUbication;
 
+
+        #endregion
+
+        #region Builder
         public frmAddStorage()
         {
             InitializeComponent();
         }
+        #endregion
 
-        // Evento de selección de ComboBox
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        #region Events
+
+
+        // Event triggered when the cdStorage selection changes
+        private void cdStorage_SelectedIndexChanged(object sender, EventArgs e)
         {
             storageUbication = cbStorage.SelectedItem as string; // Uso de propiedad StorageUbication
         }
 
-        // Evento de clic en el botón Guardar
+        // Event triggered when the Save button is clicked
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
             {
-                storageName = txtName.Text; // Uso de propiedad StorageName
+                storageName = txtName.Text; // Use of StorageName property
                 frmMain frm = Owner as frmMain;
-                var result = MessageBox.Show("¿Desea guardar la bodega?", "Confirmación", MessageBoxButtons.YesNo);
+                var result = MessageBox.Show("Do you want to save the storage?", "Confirmation", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    frm.AddStorage(storageName, storageUbication); // Pasar las propiedades
+                    frm.AddStorage(storageName, storageUbication); // Pass the properties
                 }
             }
             catch
             {
-                MessageBox.Show("Ha ocurrido un error");
+                MessageBox.Show("An error has occurred");
             }
         }
 
-        // Evento de clic en el botón Salir
-        private void salirBtn_Click(object sender, EventArgs e)
+        // Event triggered when the Exit button is clicked
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Close();
         }
+        #endregion
     }
 }

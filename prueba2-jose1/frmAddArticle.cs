@@ -2,10 +2,13 @@
 {
     public partial class frmAddArticle : Form
     {
+        #region Variables
         // Selected category and storage from the dropdown lists
         public string CategorySelected;
         public string StorageSelected;
+        #endregion
 
+        #region Builder
         /// <summary>
         /// Constructor that initializes the form and loads available storages into the combo box.
         /// </summary>
@@ -16,6 +19,9 @@
             ChargeDataCB(storages); // Load storages into the combo box
         }
 
+        #endregion
+
+        #region Events
         /// <summary>
         /// Event triggered when the selected category changes.
         /// Updates the CategorySelected variable with the new selection.
@@ -104,19 +110,6 @@
         }
 
         /// <summary>
-        /// Loads the available storage options into the combo box.
-        /// </summary>
-        /// <param name="storageList">List of storages to load</param>
-        private void ChargeDataCB(List<Storage> storageList)
-        {
-            cbStorage.DataSource = null;
-            foreach (var storage in storageList)
-            {
-                cbStorage.Items.Add(storage.StorageName);
-            }
-        }
-
-        /// <summary>
         /// Ensures that only letters can be typed in the Name textbox.
         /// </summary>
         private void txtName_KeyPress(object sender, KeyPressEventArgs e)
@@ -137,6 +130,22 @@
                 e.Handled = true;
             }
         }
+        #endregion
+
+        #region method
+
+        /// <summary>
+        /// Loads the available storage options into the combo box.
+        /// </summary>
+        /// <param name="storageList">List of storages to load</param>
+        private void ChargeDataCB(List<Storage> storageList)
+        {
+            cbStorage.DataSource = null;
+            foreach (var storage in storageList)
+            {
+                cbStorage.Items.Add(storage.StorageName);
+            }
+        }
 
         /// <summary>
         /// Validates that the amount is within the range defined by the minimum and maximum amounts.
@@ -147,17 +156,25 @@
         /// <returns>True if the amount is valid, otherwise false</returns>
         private bool AmountValidation(int minAmount, int maxAmount, int amount)
         {
-            if (amount < minAmount)
+            try
             {
-                MessageBox.Show("The amount is less than the minimum established", "Warning");
+                if (amount < minAmount)
+                {
+                    MessageBox.Show("The amount is less than the minimum established", "Warning");
+                    return false;
+                }
+                else if (amount > maxAmount)
+                {
+                    MessageBox.Show("The amount exceeds the maximum established", "Warning");
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred during amount validation: {ex.Message}", "Warning");
                 return false;
             }
-            else if (amount > maxAmount)
-            {
-                MessageBox.Show("The amount exceeds the maximum established", "Warning");
-                return false;
-            }
-            return true;
         }
 
         /// <summary>
@@ -168,23 +185,36 @@
         /// <returns>True if the values are valid, otherwise false</returns>
         private bool MinMaxValidation(int minAmount, int maxAmount)
         {
-            if (minAmount > maxAmount)
+            try
             {
-                MessageBox.Show("The minimum amount cannot be greater than the maximum", "Warning");
+                if (minAmount > maxAmount)
+                {
+                    MessageBox.Show("The minimum amount cannot be greater than the maximum", "Warning");
+                    return false;
+                }
+                if (minAmount < 0)
+                {
+                    MessageBox.Show("The minimum amount cannot be negative", "Warning");
+                    return false;
+                }
+                if (maxAmount < 1)
+                {
+                    MessageBox.Show("The maximum amount cannot be zero or negative", "Warning");
+                    return false;
+                }
+                return true; // If all validations pass, return true
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred during min/max validation: {ex.Message}", "Warning");
                 return false;
             }
-            if (minAmount < 0)
-            {
-                MessageBox.Show("The minimum amount cannot be negative", "Warning");
-                return false;
-            }
-            if (maxAmount < 1)
-            {
-                MessageBox.Show("The maximum amount cannot be zero or negative", "Warning");
-                return false;
-            }
-            return true; // If all validations pass, return true
         }
+     #endregion
+
+
+
+
     }
 }
 

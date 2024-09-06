@@ -58,7 +58,7 @@
             cbStorage.FormattingEnabled = true;
             cbStorage.Items.AddRange(new object[] { resources.GetString("cbStorage.Items"), resources.GetString("cbStorage.Items1"), resources.GetString("cbStorage.Items2") });
             cbStorage.Name = "cbStorage";
-            cbStorage.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            cbStorage.SelectedIndexChanged += cdStorage_SelectedIndexChanged;
             // 
             // btnSave
             // 
@@ -72,7 +72,7 @@
             resources.ApplyResources(btnExit, "btnExit");
             btnExit.Name = "btnExit";
             btnExit.UseVisualStyleBackColor = true;
-            btnExit.Click += salirBtn_Click;
+            btnExit.Click += btnExit_Click;
             // 
             // frmAddStorage
             // 

@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmupdatearticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmupdatearticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmupdatearticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmupdatearticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmaddstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +19,20 @@
       "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmaddstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmaddarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|c:\\source\\examenprogra2\\prueba2-jose1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB62D93F-CE10-45E8-BD93-AA0D27DB95F3}|prueba2-jose1\\prueba2-jose1.csproj|solutionrelative:prueba2-jose1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,9 +52,9 @@
               "RelativeDocumentMoniker": "prueba2-jose1\\frmUpdateArticle.cs",
               "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmUpdateArticle.cs",
               "RelativeToolTip": "prueba2-jose1\\frmUpdateArticle.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwAcAAAAhAAAA",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAmwI8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:33:31.797Z",
+              "WhenOpened": "2024-09-06T00:06:17.957Z",
               "EditorCaption": ""
             },
             {
@@ -62,71 +66,83 @@
               "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmUpdateArticle.cs [Design]",
               "RelativeToolTip": "prueba2-jose1\\frmUpdateArticle.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T00:41:42.852Z",
+              "WhenOpened": "2024-09-06T00:06:15.926Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmAddArticle.cs [Design - English]",
-              "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddArticle.cs",
-              "RelativeDocumentMoniker": "prueba2-jose1\\frmAddArticle.cs",
-              "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddArticle.cs [Design - English]",
-              "RelativeToolTip": "prueba2-jose1\\frmAddArticle.cs [Design - English]",
+              "DocumentIndex": 2,
+              "Title": "frmAddStorage.cs",
+              "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddStorage.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\frmAddStorage.cs",
+              "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddStorage.cs",
+              "RelativeToolTip": "prueba2-jose1\\frmAddStorage.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:33:22.083Z",
-              "EditorCaption": " [Design - English]"
+              "WhenOpened": "2024-09-06T00:00:20.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "frmAddStorage.cs [Design - English]",
               "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddStorage.cs",
               "RelativeDocumentMoniker": "prueba2-jose1\\frmAddStorage.cs",
               "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddStorage.cs [Design - English]",
               "RelativeToolTip": "prueba2-jose1\\frmAddStorage.cs [Design - English]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:33:02.174Z",
+              "WhenOpened": "2024-09-06T00:00:16.936Z",
               "EditorCaption": " [Design - English]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmAddStorage.cs",
-              "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddStorage.cs",
-              "RelativeDocumentMoniker": "prueba2-jose1\\frmAddStorage.cs",
-              "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddStorage.cs",
-              "RelativeToolTip": "prueba2-jose1\\frmAddStorage.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA5wCgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:25:10.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "frmAddArticle.cs",
               "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddArticle.cs",
               "RelativeDocumentMoniker": "prueba2-jose1\\frmAddArticle.cs",
               "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddArticle.cs",
               "RelativeToolTip": "prueba2-jose1\\frmAddArticle.cs",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAQwL4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:20:20.878Z",
+              "WhenOpened": "2024-09-05T23:50:40.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\Inventory.cs",
-              "RelativeDocumentMoniker": "prueba2-jose1\\Inventory.cs",
-              "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\Inventory.cs",
-              "RelativeToolTip": "prueba2-jose1\\Inventory.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvzoAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "frmAddArticle.cs [Design - English]",
+              "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddArticle.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\frmAddArticle.cs",
+              "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmAddArticle.cs [Design - English]",
+              "RelativeToolTip": "prueba2-jose1\\frmAddArticle.cs [Design - English]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:18:47.408Z",
+              "WhenOpened": "2024-09-05T23:50:38.767Z",
+              "EditorCaption": " [Design - English]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmMain.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\frmMain.cs",
+              "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmMain.cs",
+              "RelativeToolTip": "prueba2-jose1\\frmMain.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:43:05.901Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmMain.cs [Design - English]",
+              "DocumentMoniker": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmMain.cs",
+              "RelativeDocumentMoniker": "prueba2-jose1\\frmMain.cs",
+              "ToolTip": "C:\\Source\\ExamenProgra2\\prueba2-jose1\\frmMain.cs [Design - English]",
+              "RelativeToolTip": "prueba2-jose1\\frmMain.cs [Design - English]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:43:00.233Z",
+              "EditorCaption": " [Design - English]"
             }
           ]
         }
